@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageCard = ({title,image,description,order}) => {
+const ImageCard = ({title,image,order,description}) => {
   return (
     <section className="text-gray-600 body-font border rounded-lg shadow-inner my-12">
                 <div className="mx-auto flex p-5 gap-4 sm:gap-6 md:gap-16 md:flex-row flex-col items-center">
