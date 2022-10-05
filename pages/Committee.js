@@ -13,7 +13,7 @@ const Committee = () => {
 
   return (
   <>
-      <div className={`mt-14 ${gradients.committeePage}`}>
+      <div className={`mt-14 ${gradients.homePage} text-black`}>
         <h1 className='text-center text-2xl md:text-4xl font-bold pt-6'>
          <span className='border-b-4 border-blue-500 pb-2 pl-6'>Organising</span><span className='border-b-4 border-blue-500 pb-2 pr-6'> Committee</span>
         </h1>

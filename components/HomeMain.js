@@ -3,8 +3,18 @@ import HomeImageGallery from './HomeImageGallery'
 import { MdLocationOn } from "react-icons/md";
 import {BsFillCalendarCheckFill} from "react-icons/bs";
 import gradients from "../styles/customGradient.module.css";
+import Lottie from "lottie-react";
+import research from "../lottieFiles/research.json"
+import {useRouter} from 'next/router';
 
 const HomeMain = () => {
+
+  const router  = useRouter();
+
+  const navigate = (dest)=>{
+    router.push(dest);
+  };
+
   return (
  <>
        <div className='h-[60vh] md:h-[95vh] mt-[55px] relative'>
@@ -33,8 +43,7 @@ const HomeMain = () => {
     <section className="p-6">
   <div className=" container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 px-6 lg:pr-24 md:pr-16 relative flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-      <div className='-skew-y-12 rotate-[12deg] h-20 w-[40%] bg-red-200 absolute -top-1 left-8'>
-      </div>
+      
       <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">MAC2023
       </h1>
       <h2 className='text-lg'>
@@ -56,7 +65,7 @@ const HomeMain = () => {
     </div>
     
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center" alt="hero" src="https://dummyimage.com/720x600"/>
+      <img className="object-cover object-center" alt="hero" src="/conf.jpg"/>
     </div>
   </div>
 </section>
@@ -64,7 +73,7 @@ const HomeMain = () => {
 <section className="body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
+    <Lottie animationData={research} loop={true} />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
     <h1 className="title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">Call For Paper
@@ -80,9 +89,9 @@ const HomeMain = () => {
       The technical sessions will have four tracks covering all major and emrging areas of Microwave, Antenna and Communication. Every track will comprised with
         following events
       </p>
-        <ul className='pl-6 font-semibold pt-4'>
+        <ul className='pl-6 font-semibold pt-4 text-left'>
             <li className='list-disc'>Paper Presentations and best paper awards</li>
-            <li className='list-disc'>Poster Presentations and best poster awards</li>
+            <li className='list-disc '>Poster Presentations and best poster awards</li>
             <li className='list-disc'>Key Note Lectures</li>
             <li className='list-disc'>Special Sesisons</li>
             <li className='list-disc'>Panel Discussions</li>
@@ -90,8 +99,8 @@ const HomeMain = () => {
         </ul>
         </div>
       <div className="flex gap-4 justify-center">
-      <button className='btn btn-primary'>Guidelines</button>
-      <button className='btn btn-success font-semibold'>Registration</button>
+      <button className='btn btn-primary' onClick={()=>navigate('guideline')}>Guidelines</button>
+      <button className='btn btn-success font-semibold' onClick={()=>navigate('registration')}>Registration</button>
       </div>
     </div>
   </div>

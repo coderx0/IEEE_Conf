@@ -22,7 +22,7 @@ const CommitteeAccordion = () => {
 {
     executiveCommittee.map(member=>
     <div key={member.fullName}
-    className=" w-full p-1 text-black font-semibold border-b-[1px] border-stone-700 flex">
+    className="text-md md:text-lg w-full p-1 text-black font-semibold border-b-[1px] border-stone-700 flex">
     <span className='w-[40%]'>{member.fullName}</span>
     <span className='italic text-sm font-normal'> {member.organisation}</span>
     </div>)
