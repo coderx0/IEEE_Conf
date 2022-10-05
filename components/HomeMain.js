@@ -41,7 +41,7 @@ const HomeMain = () => {
 
     <div className={`w-full text-black ${gradients.homePage}`}>
     <section className="p-6">
-  <div className=" container mx-auto flex px-5 py-2 md:flex-row flex-col items-center">
+  <div className=" container mx-auto flex md:px-5 py-2 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 px-6 lg:pr-24 md:pr-16 relative flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       
       <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">MAC2023
@@ -64,7 +64,7 @@ const HomeMain = () => {
       
     </div>
     
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+    <div className="w-full lg:w-[40%] bg-red-100">
       <img className="object-cover object-center" alt="hero" src="/conf.jpg"/>
     </div>
   </div>
@@ -72,7 +72,7 @@ const HomeMain = () => {
 
 <section className="body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-last md:order-first mt-8 md:mt-0">
     <Lottie animationData={research} loop={true} />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">

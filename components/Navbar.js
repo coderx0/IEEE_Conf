@@ -3,6 +3,7 @@ import fonts from "../styles/customFont.module.css"
 import Sidebar from './Sidebar'
 import {GiHamburgerMenu} from "react-icons/gi"
 import Link from "next/link";
+import { AnimatePresence } from 'framer-motion';
 
 const Navbar = () => {
   const [isOpenSidebar, setIsOpenSidebar] = useState(false);
@@ -41,7 +42,9 @@ const Navbar = () => {
         
         
         <span className='block lg:hidden' onClick={()=>setIsOpenSidebar(prev=>!prev)}><GiHamburgerMenu className='w-6 h-6'/></span>
+        <AnimatePresence>
         {isOpenSidebar && <Sidebar setIsOpenSidebar={setIsOpenSidebar}/>}
+        </AnimatePresence>
     </div>
   )
 }

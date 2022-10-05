@@ -85,7 +85,7 @@ const Committee = () => {
 
             </div>
 
-           <div className='mx-4'>
+           <div className='mx-3 md:mx-4'>
          <CommitteeAccordion/>
          </div>
      <div className='h-32 w-full'></div>
