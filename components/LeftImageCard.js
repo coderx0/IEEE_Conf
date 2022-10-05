@@ -1,8 +1,8 @@
 import React from 'react'
 
-const LeftImageCard = ({title,image,description,order}) => {
+const LeftImageCard = ({title,image,description}) => {
   return (
-    <section className="text-gray-600 body-font border rounded-lg shadow-inner my-12">
+    <section className="text-gray-600 body-font border rounded-lg shadow-inner my-12 !ml-0">
                 <div className="mx-auto flex p-5 gap-4 sm:gap-6 md:gap-16 md:flex-row flex-col items-center">
                     <div className={`md:order-12 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0`}>
                     <img className="object-cover object-center h-full w-full rounded" alt="hero" src={image}/>
