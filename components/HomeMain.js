@@ -23,14 +23,14 @@ const HomeMain = () => {
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
                 <span className='text-orange-400'>1st</span> IEEE-International Conference on <span className='text-orange-400'>Microwave</span> , Antenna and <span className='text-green-500'>Communication</span>
             </div>
-          <div className='w-full my-12 flex justify-between lg:justify-start lg:gap-10 font-semibold p-2'>
+          <div className='w-full my-12 pl-6 sm:pl-0 flex justify-center gap-4 lg:justify-start lg:gap-10 font-semibold  md:p-2'>
         
-          <p className='flex items-center gap-3 '>
+          <p className='flex items-center gap-3'>
           <span className='bg-purple-200 rounded-full p-[13px]'>
-          <BsFillCalendarCheckFill className='w-4 h-4 text-lime-600'/>
+          <BsFillCalendarCheckFill className='w-3 h-3 md:w-5 md:h-5 text-lime-600'/>
           </span>
          <span className='text-sm lg:text-lg'> March 24-26 , 2023</span></p>
-         <p className='flex items-center gap-2'>
+         <p className='flex items-center justify-end gap-2'>
           <span className='bg-purple-200 rounded-full p-2'>
           <MdLocationOn className='w-5 h-5 md:w-8 md:h-8 text-blue-500'/>
           </span>

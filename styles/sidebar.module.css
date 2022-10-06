@@ -1,0 +1,18 @@
+.sidebar {
+    position: relative;
+}
+
+.sidebar::before{
+    content: "";
+    position: absolute;
+    background-color: #2ecc71;
+    top: 120%;
+    left: 0;
+    height: 10%;
+    width: 0;
+    transition: 0.5s;
+}
+
+.sidebar:hover::before{
+    width: 80%;
+}

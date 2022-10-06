@@ -3,6 +3,9 @@ import {IoMdClose} from "react-icons/io"
 import {useRouter} from 'next/router'
 import { motion } from "framer-motion"
 
+import classes from "../styles/sidebar.module.css"
+
+
 const container = {
   hidden: { opacity: 0 },
   show: {
@@ -50,19 +53,24 @@ const Sidebar = ({setIsOpenSidebar}) => {
     exit='close'
     className='flex flex-col gap-2 mt-16 font-semibold text-lg md:text-xl px-4'>
         <motion.div variants={item}
-        onClick={()=>navigate('')} className='hover:bg-stone-300 hover:text-black cursor-pointer p-4 rounded-xl'>
+        onClick={()=>navigate('')} 
+        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         About</motion.div>
         <motion.div variants={item}
-        onClick={()=>navigate('/Committee')} className='hover:bg-stone-300 hover:text-black cursor-pointer p-4 rounded-xl'>
+        onClick={()=>navigate('/Committee')} 
+        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Committee</motion.div>
         <motion.div variants={item}
-        onClick={()=>navigate('/tracks')} className='hover:bg-stone-300 hover:text-black cursor-pointer p-4 rounded-xl'>
+        onClick={()=>navigate('/tracks')} 
+        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Tracks</motion.div>
         <motion.div variants={item}
-        onClick={()=>navigate('/guideline')} className='hover:bg-stone-300 hover:text-black cursor-pointer p-4 rounded-xl'>
+        onClick={()=>navigate('/guideline')} 
+        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Guidelines</motion.div>
         <motion.div variants={item}
-        onClick={()=>navigate('/registration')} className='hover:bg-stone-300 hover:text-black cursor-pointer p-4 rounded-xl'>
+        onClick={()=>navigate('/registration')} 
+        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Registration</motion.div>
         
     </motion.div>

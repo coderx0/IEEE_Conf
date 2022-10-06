@@ -10,11 +10,17 @@ const Navbar = () => {
 
   return (
     <div className='fixed top-0 left-0 right-0 z-50 bg-black flex h-[72px] items-center p-6'>
-      <Link href='/'>
-      <span className={`flex-1 cursor-pointer font-bold text-3xl ${fonts.rubikFont}`}>
-            <span className='text-orange-400'>MAC</span><span>2023</span>
-        </span>
-      </Link>
+     
+      <div className={`flex-1 font-bold text-3xl ${fonts.rubikFont}`}>
+<div className=' flex flex-start'>
+<Link href='/'>
+<p className=' cursor-pointer'>
+<span className='text-orange-400'>MAC</span><span>2023</span>
+</p>
+</Link>
+</div>
+        </div>
+      
 
         <div className='hidden lg:flex lg:gap-2 text-lg font-semibold'>
             <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
