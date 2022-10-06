@@ -6,6 +6,7 @@ import gradients from "../styles/customGradient.module.css";
 import Lottie from "lottie-react";
 import research from "../lottieFiles/research.json"
 import {useRouter} from 'next/router';
+import Map from './Map';
 
 const HomeMain = () => {
 
@@ -105,6 +106,7 @@ const HomeMain = () => {
     </div>
   </div>
 </section>
+<Map/>
 
     </div>
  </>

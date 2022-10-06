@@ -49,6 +49,7 @@ const guideline = () => {
 
               </div>
             </section>
+            
           </main>
         </div>
 
