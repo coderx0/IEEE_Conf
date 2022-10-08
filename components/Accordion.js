@@ -24,7 +24,7 @@ const Accordion = ({accord,setAccord,accordNum,heading,bodyData}) => {
     const scrollBack = ()=>elementRef.current.scrollIntoView()
 
   return (
-    <div className='glass w-full lg:w-[70%] p-4 rounded-box mt-4'>
+    <div className='relative glass w-full lg:w-[70%] p-4 rounded-box mt-4'>
     <h1 className='text-2xl font-bold flex justify-between cursor-pointer'
     ref={elementRef}
     onClick={()=>{

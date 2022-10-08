@@ -8,7 +8,7 @@ import { BsTwitter,BsInstagram } from 'react-icons/bs';
 const Footer = () => {
   return (
     <>
-    <footer className=" bg-stone-50 body-font">
+    <footer className=" bg-stone-50 body-font border-t-2 border-stone-600">
   <div className=" px-5 py-12 mx-auto flex sm:items-start sm:flex-row  flex-wrap flex-col">
     <div className="lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
       <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">
@@ -39,12 +39,7 @@ const Footer = () => {
           <li>
             <Link href=""><a className="text-gray-600 hover:text-rose-500 s cursor-pointer">Registration</a></Link>
           </li> 
-          {/* <li>
-            <Link href=""><a className="text-gray-600 hover:text-rose-500 s cursor-pointer">MNNIT</a></Link>
-          </li> 
-          <li>
-            <Link href=""><a className="text-gray-600 hover:text-rose-500 s cursor-pointer">IEEE</a></Link>
-          </li>  */}
+        
         </nav>
       </div>
       <div className="flex flex-col items-center justify-start lg:w-1/2 sm:w-1/2 w-full  py-2 lg:items-start">
@@ -71,10 +66,10 @@ const Footer = () => {
       </div> */}
     </div>
   </div>
-  <div className="bg-gray-100">
+  <div className="bg-gray-300">
     <div className="container mx-auto py-4 px-5 flex flex-row">
-      <p className="text-gray-500 text-sm text-left">© 2022 —
-        <a href="" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@MNNIT</a>
+      <p className="text-gray-500 text-sm text-left font-bold">© 2022 —
+        <a href="" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@MNNIT ALLAHABAD</a>
       </p>
       <span className="inline-flex ml-auto mt-0 justify-center sm:justify-start">
         <Link href=''><a className="text-teal-600">

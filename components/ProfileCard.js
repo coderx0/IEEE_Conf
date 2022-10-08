@@ -1,10 +1,10 @@
 import React from 'react'
 
-const ProfileCard = ({title,fullName,post,organisation}) => {
+const ProfileCard = ({title,fullName,post,organisation,profileImage}) => {
   return (
     <div className="card w-72 md:w-[310px] glass">
   <figure className=''>
-  <img src="/ramaBG.png" alt="car!" className='h-56 mx-16 mt-4 w-full object-cover object-top'/>
+  <img src={profileImage} alt="car!" className='h-56 mx-16 mt-4 w-full object-cover object-top'/>
   </figure>
   <div className="card-body text-black font-semibold">
     <div className="text-2xl font-bold ">

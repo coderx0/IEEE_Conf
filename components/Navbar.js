@@ -23,27 +23,30 @@ const Navbar = () => {
       
 
         <div className='hidden lg:flex lg:gap-2 text-lg font-semibold'>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
-              <Link href='/'>
+            <Link href='/'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
                 About
-              </Link>
             </span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            </Link>
             <Link href='/Committee'>
-            Committee
-            </Link></span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            Committee</span>
+            </Link>
             <Link href='/tracks'>
-            Tracks
-            </Link></span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            Tracks</span>
+            </Link>
             <Link href='/guideline'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
               Guidelines
-            </Link></span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            </span>
+            </Link>
             <Link href='/registration'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
             Registration
-            </Link></span>
+            </span>
+            </Link>
+            
         </div>
         
         

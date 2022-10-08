@@ -80,7 +80,7 @@ const HomeMain = () => {
     <h1 className="title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">Call For Paper
       </h1>
       <h2 className='text-orange-600 font-bold text-xl mb-6'>
-        "MICROWAVE , ANTENNA AND COMMUNICATION"
+        MICROWAVE , ANTENNA AND COMMUNICATION
       </h2>
       <p className='text-lg font-semibold'>
         The accepted and presented papers of the conference by duly registered authors will be submitted to IEEE Xplore Digital Library for possible publication after quick check.

@@ -19,7 +19,7 @@ const Committee = () => {
         </h1>
         
 
-      <div className='mx-2 p-8 rounded-box flex flex-col gap-8 items-center'>
+      <div className='mt-6 mx-2 p-8 rounded-box flex flex-col gap-8 items-center'>
          <div>
          <h1 className='mb-4 text-xl md:text-3xl font-bold'>Chief Patron</h1>
 
@@ -28,6 +28,7 @@ const Committee = () => {
     fullName="Rama Shankar Verma"
     post='Director'
     organisation="MNNIT Allahabd, India"
+    profileImage='/ramaBG.png'
 />
          </div>
             
@@ -39,6 +40,7 @@ const Committee = () => {
                 title={patron.title}
                 fullName={patron.fullName}
                 post=''
+                profileImage={patron.profileImage}
                 organisation={patron.organisation}
             />)}
             </div>
@@ -52,6 +54,7 @@ const Committee = () => {
                 title={chair.title}
                 fullName={chair.fullName}
                 post=''
+                profileImage={chair.profileImage}
                 organisation={chair.organisation}
             />)}
             </div>
@@ -65,6 +68,7 @@ const Committee = () => {
                 title={chair.title}
                 fullName={chair.fullName}
                 post=''
+                profileImage={chair.profileImage}
                 organisation={chair.organisation}
             />)}
             </div>
@@ -78,6 +82,7 @@ const Committee = () => {
                 title={chair.title}
                 fullName={chair.fullName}
                 post=''
+                profileImage={chair.profileImage}
                 organisation={chair.organisation}
             />)}
             </div>
