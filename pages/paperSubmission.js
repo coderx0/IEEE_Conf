@@ -10,7 +10,7 @@ const guideline = () => {
         <div className="relative flex-grow items-start justify-start space-x-2 md:flex md:flex-row md:px-8 xl:px-10 ">
           <main className="w-full space-x-6 pt-4 md:flex-grow ">
             <div className="flex flex-col items-center justify-center px-4 py-2 sm:px-6 sm:py-2">
-              <h1 className=" text-center text-black text-4xl sm:text-5xl font-bold leading-[3rem] border-b-4 border-blue-500 pb-1 md:pb-3 ">Guideline</h1>
+              <h1 className=" text-center text-black text-4xl sm:text-5xl font-bold leading-[3rem] border-b-4 border-blue-500 pb-1 md:pb-3 ">Paper Submission</h1>
               {/* <div className="mt-1 sm:mt-4 h-1 w-12 sm:w-20 bg-blue-600 rounded"></div> */}
             </div>
             <section className="text-gray-600 body-font  border-rose-500 rounded mt-4 !ml-0">

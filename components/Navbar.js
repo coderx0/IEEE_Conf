@@ -36,12 +36,30 @@ const Navbar = () => {
             <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
             Tracks</span>
             </Link>
-            <Link href='/guideline'>
-            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
-              Guidelines
+            <span className=' dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+         
+  <label tabIndex={0} className="m-1 relative">Author</label>
+  <div className='absolute top-[42px] -left-10 dropdown-content p-4'>
+  <ul tabIndex={0} className=" text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start">
+    <Link href='/paperSubmission'>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2 '>
+      Paper Submission
+    </li>
+    </Link>
+    <Link href='/registration'>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'>
+    Important Dates
+    </li>
+    </Link>
+    <Link href='/#callforpaper' scroll={false}>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'>Call For Paper</li>
+    </Link>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'> Download</li>
+  </ul>
+  </div>
+ 
             </span>
-            </Link>
-            <Link href='/registration'>
+            <Link href='/registration#registration' scroll={false}>
             <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
             Registration
             </span>

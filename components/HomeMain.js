@@ -51,7 +51,7 @@ const HomeMain = () => {
         <span>Organised at</span>
         <p><span className='text-orange-500 font-bold text-xl'>
         MNNIT ALLAHABAD, India 
-        </span> in Technical Collaboration with <span className='text-red-600 font-bold'>Universite de Sherbrooke, Canada</span></p>
+        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Universite de Sherbrooke, Canada</span></p>
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg">
@@ -71,13 +71,13 @@ const HomeMain = () => {
   </div>
 </section>
 
-<section className="body-font">
+<section id="callforpaper" className="body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-last md:order-first mt-8 md:mt-0">
     <Lottie animationData={research} loop={true} />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-    <h1 className="title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">Call For Paper
+    <h1  className="title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">Call For Paper
       </h1>
       <h2 className='text-orange-600 font-bold text-xl mb-6'>
         MICROWAVE , ANTENNA AND COMMUNICATION
