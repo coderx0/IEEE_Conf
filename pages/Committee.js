@@ -3,30 +3,39 @@ import gradients from "../styles/customGradient.module.css"
 import ProfileCard from '../components/ProfileCard'
 import { patrons,honChairs,genChairs,confChairs } from '../data/committee'
 import CommitteeAccordion from '../components/CommitteeAccordion'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+
 
 const Committee = () => {
-  const [open, setOpen] = useState(1);
- 
-    const handleOpen = (value) => {
-      setOpen(open === value ? 0 : value);
-    };
+
+  const router = useRouter();
 
   return (
   <>
       <div className={`mt-14 ${gradients.homePage} text-black`}>
-        <h1 className='text-center text-2xl md:text-4xl font-bold pt-6'>
-         <span className='border-b-4 border-blue-500 pb-2 pl-6'>Organising</span><span className='border-b-4 border-blue-500 pb-2 pr-6'> Committee</span>
-        </h1>
+       
         <div className='relative'>
       <div className='fixed top-16 w-80 h-full'>
         <div className='bg-cyan-200 h-full pt-16'>
           <h1 className='text-2xl font-bold w-full pb-2 text-center border-b-2 border-cyan-600'>Committee Memebers</h1>
-        <ul className='px-4 py-4 text-xl flex flex-col gap-4 overflow-auto h-[80vh]'>
-          <li>Chief Patron</li>
-          <li>Patrons</li>
-          <li>Honorary Chairs</li>
-          <li>General Chairs</li>
-          <li>Conference Chairs</li>
+        <ul className='px-4 py-4 text-xl flex flex-col gap-2 overflow-auto h-[80vh]'>
+          <Link href='/Committee/#chiefpatron'>
+          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Chief Patron</li>
+          </Link>
+          <Link href='/Committee/#patron'>
+          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Patron</li>
+          </Link>
+          <Link href='/Committee/#honchairs'>
+          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Honorary Chairs</li>
+          </Link>
+          <Link href='/Committee/#genchairs'>
+          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>General Chairs</li>
+          </Link>
+          <Link href='/Committee/#conchairs'>
+          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Conference Chairs</li>
+          </Link>
+          
           <li>Executive Committee</li>
           <li>Advisory Committee</li>
           <li>Finance Chair</li>
@@ -42,21 +51,23 @@ const Committee = () => {
         </div>
       </div>
       <div className=' ml-80'>
-      <div className='mt-6 mx-2 p-8 rounded-box flex flex-col gap-8 items-center'>
-         <div>
+      <div className='mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center'>
+         <div >
+         <div id='chiefpatron' className='h-20'></div>
          <h1 className='mb-4 text-xl md:text-3xl font-bold'>Chief Patron</h1>
 
 <ProfileCard
     title='Prof'
     fullName="Rama Shankar Verma"
     post='Director'
-    organisation="MNNIT Allahabd, India"
+    organisation="MNNIT Allahabad, India"
     profileImage='/ramaBG.png'
 />
          </div>
             
          <div>
-         <h1 className='my-6 text-xl md:text-3xl font-bold'>Patrons</h1>
+         <div id='patron' className='h-20'></div>
+         <h1 className='mb-6 text-xl md:text-3xl font-bold'>Patrons</h1>
             <div className='flex gap-8 flex-wrap'>
           {patrons.map(patron=>  <ProfileCard
           key={patron.fullName}
@@ -70,7 +81,8 @@ const Committee = () => {
          </div>
         
        <div>
-       <h1 className='my-6 text-xl md:text-3xl font-bold'>Honorary Chairs</h1>
+       <div id='honchairs' className='h-20'></div>
+       <h1 className='mb-6 text-xl md:text-3xl font-bold'>Honorary Chairs</h1>
             <div className='flex gap-8 flex-wrap'>
           {honChairs.map(chair=>  <ProfileCard
           key={chair.fullName}
@@ -84,7 +96,8 @@ const Committee = () => {
        </div>
 
       <div>
-      <h1 className='my-6 text-xl md:text-3xl font-bold'>General Chairs</h1>
+      <div id='genchairs' className='h-20'></div>
+      <h1 className='mb-6 text-xl md:text-3xl font-bold'>General Chairs</h1>
             <div className='flex gap-8 flex-wrap'>
           {genChairs.map(chair=>  <ProfileCard
           key={chair.fullName}
@@ -98,7 +111,8 @@ const Committee = () => {
       </div>
 
         <div>
-        <h1 className='my-6 text-xl md:text-3xl font-bold'>Conference Chairs</h1>
+        <div id='conchairs' className='h-20'></div>
+        <h1 className='mb-6 text-xl md:text-3xl font-bold'>Conference Chairs</h1>
             <div className='flex gap-8 flex-wrap'>
           {confChairs.map(chair=>  <ProfileCard
           key={chair.fullName}
