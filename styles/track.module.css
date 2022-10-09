@@ -1,6 +1,6 @@
 .coolHover {
     border: 4px solid;
-    border-color: #7ed6df;
+    border-color: #3498db;
     -webkit-mask: 
       conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
        var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
@@ -17,7 +17,7 @@
 
   .coolHover h1 {
     --s: 0.1em;   /* the thickness of the line */
-    --c: #1095c1; /* the color */
+    --c: #2243B6; /* the color */
     
     color: #0000;
     padding-bottom:10px;
@@ -29,5 +29,42 @@
     transition: 1s;
   }
   .coolHover:hover h1 {
+    --_p: 300%
+  }
+
+
+
+
+  .coolHover2 {
+    border: 6px solid;
+    border-color: #A7F432;
+    -webkit-mask: 
+      conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+       var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+      conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+       0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+      linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+  }
+  .coolHover2:hover {
+    --_i: 100%;
+    transition: .3s, -webkit-mask-size .3s .3s;
+  }
+
+
+  .coolHover2 h1 {
+    --s: 0.1em;   /* the thickness of the line */
+    --c: #A7F432; /* the color */
+    
+    color: #ffff;
+    padding-bottom:10px;
+    background: 
+      linear-gradient(90deg,var(--c) 50%,#ffff 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: 1s;
+  }
+  .coolHover2:hover h1 {
     --_p: 300%
   }

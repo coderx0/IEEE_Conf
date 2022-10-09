@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='fixed top-0 left-0 right-0 z-50 bg-black flex h-[72px] items-center p-6'>
      
-      <div className={`flex-1 font-bold text-3xl ${fonts.rubikFont}`}>
+      <div className={`flex-1 font-bold text-3xl`}>
 <div className=' flex flex-start'>
 <Link href='/'>
 <p className=' cursor-pointer'>

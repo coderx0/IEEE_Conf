@@ -7,6 +7,8 @@ import Lottie from "lottie-react";
 import research from "../lottieFiles/research.json"
 import {useRouter} from 'next/router';
 import Map from './Map';
+import TechCollabGallery from './TechCollabGallery';
+import Sponsors from './Sponsors';
 
 const HomeMain = () => {
 
@@ -77,7 +79,10 @@ const HomeMain = () => {
     <Lottie animationData={research} loop={true} />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-    <h1  className="title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">Call For Paper
+    <h1  className="title-font text-4xl md:text-[5vw] lg:text-6xl mb-4 font-bold border-b-4 pb-4 border-cyan-600">
+    <span className='pr-6'>
+    Call For Paper
+    </span>
       </h1>
       <h2 className='text-orange-600 font-bold text-xl mb-6'>
         MICROWAVE , ANTENNA AND COMMUNICATION
@@ -100,13 +105,25 @@ const HomeMain = () => {
         </ul>
         </div>
       <div className="flex gap-4 justify-center">
-      <button className='btn btn-primary' onClick={()=>navigate('guideline')}>Guidelines</button>
+      <button className='btn btn-primary' onClick={()=>navigate('paperSubmission')}>Guidelines</button>
       <button className='btn btn-success font-semibold' onClick={()=>navigate('registration')}>Registration</button>
       </div>
     </div>
   </div>
 </section>
+
 <Map/>
+
+<section className="p-6">
+  <div className=" container mx-auto flex md:px-5 py-2 flex-col">
+     <h1 className="relative title-font text-4xl md:text-5xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Collaborators
+      </h1>
+    <TechCollabGallery/>
+    <h1 className="relative title-font text-4xl md:text-5xl my-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Sponsors
+      </h1>
+    <Sponsors/>
+  </div>
+</section>
 
     </div>
  </>

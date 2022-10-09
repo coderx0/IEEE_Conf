@@ -7,7 +7,7 @@ import "swiper/css";
 import { Autoplay,  } from "swiper";
 import {motion} from 'framer-motion';
 
-export default function HomeImageGallery() {
+export default function TechCollabGallery() {
   return (
     <>
       <Swiper
@@ -21,38 +21,32 @@ export default function HomeImageGallery() {
         
         navigation={false}
         modules={[Autoplay]}
-        className="mySwiper bg-stone-500 text-center w-full h-[60vh] md:h-full"
+        className="mySwiper bg-stone-500 w-full h-[500px]"
       >
-        <SwiperSlide className="w-[100vw]">
-<div className="w-full h-full overflow-hidden">
+        <SwiperSlide className="w-full">
+<div className="relative w-full h-full overflow-hidden">
 <motion.img 
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/kumbh.jpg" className="w-full h-full opacity-70 object-cover"/>
-
-</div>        </SwiperSlide>
+src="/canada.jpeg" className="w-full h-full opacity-70 object-cover"/>
+</div>        
+<div className="absolute bottom-0 left-0 bg-gradient-to-t from-slate-900 w-full">
+<h1 className="text-3xl text-white font-semibold p-4 py-12">Université de Sherbrooke, Canada</h1>
+</div>
+</SwiperSlide>
         <SwiperSlide>
-        <div className="w-full h-full overflow-hidden">
+        <div className="relative w-full h-full overflow-hidden">
 <motion.img 
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/mnnit.png" className="w-full h-full brightness-75  object-cover"/>
+src="/benedict.jpg" className="w-full h-full brightness-75  object-cover"/>
 
 </div> 
-       
-        </SwiperSlide>
-        <SwiperSlide>
-        <div className="w-full h-full overflow-hidden">
-<motion.img 
-initial={{scale:1}}
-animate={{scale:1.4}}
-transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/sangam2.png" className="scale w-full h-full brightness-75  object-cover"/>
-
-</div> 
-       
+<div className="absolute bottom-0 left-0 bg-gradient-to-t from-slate-900 w-full">
+<h1 className="text-3xl text-white font-semibold p-4 py-12">Benedict College, Columbia, USA</h1>
+</div>
         </SwiperSlide>
       </Swiper>
     </>
