@@ -2,7 +2,7 @@ import React from 'react'
 import {IoMdClose} from "react-icons/io"
 import {useRouter} from 'next/router'
 import { motion } from "framer-motion"
-
+import Link from "next/link"
 import classes from "../styles/sidebar.module.css"
 
 
@@ -53,7 +53,7 @@ const Sidebar = ({setIsOpenSidebar}) => {
     exit='close'
     className='flex flex-col gap-2 mt-16 font-semibold text-lg md:text-xl px-4'>
         <motion.div variants={item}
-        onClick={()=>navigate('')} 
+        onClick={()=>navigate('/')} 
         className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         About</motion.div>
         <motion.div variants={item}
@@ -65,11 +65,34 @@ const Sidebar = ({setIsOpenSidebar}) => {
         className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Tracks</motion.div>
         <motion.div variants={item}
-        onClick={()=>navigate('/guideline')} 
-        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
-        Guidelines</motion.div>
+        className={`relative dropdown dropdown-hover text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
+        <div className="">
+  <label tabIndex={0} className="m-1">Author</label>
+  <ul tabIndex={0} className="absolute top-10 right-[2px] text-sm sm:text-md dropdown-content menu p-2 shadow bg-stone-800 rounded-box w-44 sm:w-52">
+    <li 
+    onClick={()=>navigate('/paperSubmission')}
+    className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
+      Paper Submission
+    </li>
+    <li 
+    onClick={()=>navigate('/registration')}
+    className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
+      Important Dates
+    </li>
+    <li
+    onClick={()=>navigate('/#callforpaper')}
+    className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
+      Call For Papers
+    </li>
+    <li className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
+      Download
+    </li>
+  </ul>
+</div>
+
+        </motion.div>
         <motion.div variants={item}
-        onClick={()=>navigate('/registration')} 
+        onClick={()=>navigate('/registration/#registration')} 
         className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Registration</motion.div>
         

@@ -27,17 +27,48 @@ export default function Sponsors() {
         }}
         
         modules={[Pagination,Autoplay]}
-        className="mySwiper w-[100%] h-[300px]"
+        className="mySwiper w-[100%] h-[100px] lg:h-[300px]"
       >
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 1</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 2</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 3</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 4</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 5</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 6</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 7</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 8</SwiperSlide>
-        <SwiperSlide className="text-center text-3xl flex justify-center items-center bg-red-200">Slide 9</SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          <div>
+            <img src="/mtts.png"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+          <div>
+            <img src="/aps.png"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        <div>
+            <img src="/somsoc.png"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        <div>
+            <img src="/yp.png"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        <div>
+            <img src="/wie.jpg"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        <div>
+            <img src="/sensor.png"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        <div>
+            <img src="/up.jfif"/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="text-center text-xl flex justify-center items-center">
+        <div>
+            <img src="/sight.png"/>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );

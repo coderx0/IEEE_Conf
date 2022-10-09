@@ -116,12 +116,16 @@ const HomeMain = () => {
 
 <section className="p-6">
   <div className=" container mx-auto flex md:px-5 py-2 flex-col">
-     <h1 className="relative title-font text-4xl md:text-5xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Collaborators
+     <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Collaborators
       </h1>
     <TechCollabGallery/>
-    <h1 className="relative title-font text-4xl md:text-5xl my-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Sponsors
+   <div className='bg-white my-4 rounded-lg'>
+   <h1 className="relative w-full text-center text-xl sm:text-2xl md:text-3xl font-bold py-2 lg:py-4 mb-2 border-b-4 border-cyan-400">Technical Sponsors
       </h1>
+    <div className='px-6'>
     <Sponsors/>
+    </div>
+   </div>
   </div>
 </section>
 
