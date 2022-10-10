@@ -10,7 +10,6 @@ const Committee = () => {
 
   const [isOpen, setIsOpen] = useState(false);
   const [scrollLocked, setScrollLocked] = useScrollLock(false);
-  const [activeAccord, setActiveAccord] = useState(0)
   const { height, width } = useViewportSize();
 
   useEffect(()=>{
@@ -88,7 +87,7 @@ const Committee = () => {
       </div>
 
         <div>
-        <div id='conchairs' className='h-20'></div>
+        <div id='confchairs' className='h-20'></div>
         <h1 className='mb-6 text-xl md:text-3xl font-bold'>Conference Chairs</h1>
             <div className='flex gap-8 flex-wrap'>
           {confChairs.map(chair=>  <ProfileCard
@@ -103,10 +102,6 @@ const Committee = () => {
         </div>
 
             </div>
-
-           <div className='mx-3 md:mx-4'>
-         <CommitteeAccordion activeAccord = {activeAccord}/>
-         </div>
       </div>
       </div>
     </div>

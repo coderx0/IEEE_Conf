@@ -1,16 +1,14 @@
 import { useState,useEffect } from 'react'
-import { useRouter } from 'next/router'
 import gradients from "../../styles/customGradient.module.css"
-import CommitteeAccordion from '../../components/CommitteeAccordion'
 import CommitteeSidebar from '../../components/CommitteeSidebar'
 import { useViewportSize,useScrollLock } from '@mantine/hooks'
+import Accordion from '../../components/Accordion'
 
-const CommitteeMembers = () => {
-  const router = useRouter()
+import {committeeMembers} from "../../data/committee";
+
+const CommitteeMembers = ({committeeData}) => {
   const [isOpen, setIsOpen] = useState(false);
-  const { committeeName } = router.query
   const { height, width } = useViewportSize();
-  const [activeAccord, setActiveAccord] = useState(0)
   const [scrollLocked, setScrollLocked] = useScrollLock(false);
 
   useEffect(()=>{
@@ -26,9 +24,9 @@ const CommitteeMembers = () => {
        
        <div className='relative md:flex '>
      <CommitteeSidebar width={width} isOpen={isOpen} setIsOpen={setIsOpen}/>
-     <div className='md:w-[80%] pb-8'>
+     <div className='md:w-[80%] pb-8 mt-4'>
           <div className='mx-3 md:mx-4'>
-        <CommitteeAccordion activeAccord = {activeAccord}/>
+          <Accordion heading={committeeData[0].title} memberdata = {committeeData[0].data}/>
         </div>
      </div>
      </div>
@@ -37,3 +35,23 @@ const CommitteeMembers = () => {
 }
 
 export default CommitteeMembers
+
+
+export async function getStaticPaths() {
+    
+    return {
+      paths: committeeMembers.map(committee=>({
+        params:{committeeName:committee.name}
+    })),
+      fallback: false, 
+    }
+  }
+ 
+  export async function getStaticProps(context) {
+    const {committeeName} = context.params;
+    const committeeData = committeeMembers.filter(committee=>committee.name===committeeName);
+
+    return {
+      props: { committeeData: committeeData },
+    }
+  }
