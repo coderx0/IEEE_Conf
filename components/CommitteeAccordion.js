@@ -1,19 +1,21 @@
-import React,{useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import { executiveCommittee, advisoryCommittee,financeChair,techProCommittee,youngProfessionals,womenInEngineering,SIGHT,localOrganisingCommittee,organisingSecretary,studentActivity,studentCoordinator } from '../data/committee'
 import Accordion from './Accordion';
 
 
 
-const CommitteeAccordion = () => {
+const CommitteeAccordion = ({activeAccord}) => {
     const [accord,setAccord] = useState(1);
 
-    
+    useEffect(()=>{
+      setAccord(activeAccord);
+    },[activeAccord])
   return (
   <>
 <div className='w-full flex flex-col items-center'>
   
- <Accordion accord={accord} setAccord={setAccord} accordNum = {1} heading='Executive Committee' bodyData = {executiveCommittee}/>
- <Accordion accord={accord} setAccord={setAccord} accordNum = {2} heading='Advisory Committee' bodyData = {advisoryCommittee}/>
+ <Accordion id='executiveCommittee' accord={accord} setAccord={setAccord} accordNum = {1} heading='Executive Committee' bodyData = {executiveCommittee}/>
+ <Accordion id='advisoryCommittee' accord={accord} setAccord={setAccord} accordNum = {2} heading='Advisory Committee' bodyData = {advisoryCommittee}/>
  <Accordion accord={accord} setAccord={setAccord} accordNum = {3} heading='Finance Chair' bodyData = {financeChair}/>
  <Accordion accord={accord} setAccord={setAccord} accordNum = {4} heading='Technical Program Committee' bodyData = {techProCommittee}/>
  <Accordion accord={accord} setAccord={setAccord} accordNum = {5} heading='Young Professionals' bodyData = {youngProfessionals}/>

@@ -100,6 +100,11 @@
   "resolved" "https://registry.npmjs.org/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz"
   "version" "1.2.1"
 
+"@mantine/hooks@^5.5.4":
+  "integrity" "sha512-4lPIcZgoMkq+GCILN8CDTVxYzsE/Gfi6ICjHhPZU1Ufmw0mftpjTQhLx3+TFMtBlqnamgBia2ZS1o2BpvTLazA=="
+  "resolved" "https://registry.npmjs.org/@mantine/hooks/-/hooks-5.5.4.tgz"
+  "version" "5.5.4"
+
 "@material-tailwind/react@^1.2.4":
   "integrity" "sha512-cDmdOEyg/uekLtUtjxPzgvqfkZdyZUDR2gpIIWd6ZSpfPprSHHBvzr92TtIx59+NlX3l3Fh+6702qwGmdRvyqA=="
   "resolved" "https://registry.npmjs.org/@material-tailwind/react/-/react-1.2.4.tgz"

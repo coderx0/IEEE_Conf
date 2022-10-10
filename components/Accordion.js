@@ -1,5 +1,7 @@
 import React, { useRef } from 'react'
 import { motion, AnimatePresence } from "framer-motion"
+import { useScrollIntoView } from '@mantine/hooks';
+
 
 const container = {
     hidden: { opacity: 0 },
@@ -17,14 +19,15 @@ const container = {
     show: {opacity:1, y: 0 }
   }
 
-const Accordion = ({accord,setAccord,accordNum,heading,bodyData}) => {
+const Accordion = ({id,accord,setAccord,accordNum,heading,bodyData}) => {
 
     const elementRef = useRef(null);
-
     const scrollBack = ()=>elementRef.current.scrollIntoView()
 
+   
+
   return (
-    <div className='relative glass w-full lg:w-[70%] p-4 rounded-box mt-4'>
+    <div id={id} className='relative glass w-full lg:w-[70%] p-4 rounded-box mt-4'>
     <h1 className='text-2xl font-bold flex justify-between cursor-pointer'
     ref={elementRef}
     onClick={()=>{

@@ -1,56 +1,33 @@
-import React,{useState} from 'react'
-import gradients from "../styles/customGradient.module.css"
-import ProfileCard from '../components/ProfileCard'
-import { patrons,honChairs,genChairs,confChairs } from '../data/committee'
-import CommitteeAccordion from '../components/CommitteeAccordion'
-import Link from 'next/link'
-import { useRouter } from 'next/router'
-
+import React,{useState,useEffect} from 'react'
+import gradients from "../../styles/customGradient.module.css"
+import ProfileCard from '../../components/ProfileCard'
+import { patrons,honChairs,genChairs,confChairs } from '../../data/committee'
+import CommitteeAccordion from '../../components/CommitteeAccordion'
+import { useScrollLock,useViewportSize  } from '@mantine/hooks'
+import CommitteeSidebar from '../../components/CommitteeSidebar'
 
 const Committee = () => {
 
-  const router = useRouter();
+  const [isOpen, setIsOpen] = useState(false);
+  const [scrollLocked, setScrollLocked] = useScrollLock(false);
+  const [activeAccord, setActiveAccord] = useState(0)
+  const { height, width } = useViewportSize();
+
+  useEffect(()=>{
+    if(width>768){
+      setIsOpen(true);
+      setScrollLocked(false);
+    }
+  },[width])
+
 
   return (
   <>
       <div className={`mt-14 ${gradients.homePage} text-black`}>
        
-        <div className='relative'>
-      <div className='fixed top-16 w-80 h-full'>
-        <div className='bg-cyan-200 h-full pt-16'>
-          <h1 className='text-2xl font-bold w-full pb-2 text-center border-b-2 border-cyan-600'>Committee Memebers</h1>
-        <ul className='px-4 py-4 text-xl flex flex-col gap-2 overflow-auto h-[80vh]'>
-          <Link href='/Committee/#chiefpatron'>
-          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Chief Patron</li>
-          </Link>
-          <Link href='/Committee/#patron'>
-          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Patron</li>
-          </Link>
-          <Link href='/Committee/#honchairs'>
-          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Honorary Chairs</li>
-          </Link>
-          <Link href='/Committee/#genchairs'>
-          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>General Chairs</li>
-          </Link>
-          <Link href='/Committee/#conchairs'>
-          <li className='p-1 pl-2 cursor-pointer rounded-md hover:bg-cyan-400'>Conference Chairs</li>
-          </Link>
-          
-          <li>Executive Committee</li>
-          <li>Advisory Committee</li>
-          <li>Finance Chair</li>
-          <li>Technical Program Committee</li>
-          <li>Young Professionals</li>
-          <li>Women In Engineering</li>
-          <li>Special Interest Group On Humanitarian Technology</li>
-          <li>Local Organising Committee</li>
-          <li>Organising Secretary</li>
-          <li>Student Activity</li>
-          <li>Student Co-ordinator</li>
-        </ul>
-        </div>
-      </div>
-      <div className=' ml-80'>
+        <div className='relative md:flex '>
+      <CommitteeSidebar width={width} isOpen={isOpen} setIsOpen={setIsOpen}/>
+      <div className='md:w-[80%] pb-8'>
       <div className='mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center'>
          <div >
          <div id='chiefpatron' className='h-20'></div>
@@ -128,11 +105,10 @@ const Committee = () => {
             </div>
 
            <div className='mx-3 md:mx-4'>
-         <CommitteeAccordion/>
+         <CommitteeAccordion activeAccord = {activeAccord}/>
          </div>
       </div>
       </div>
-     <div className='h-32 w-full'></div>
     </div>
   </>
   )
