@@ -1,5 +1,6 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import { motion, AnimatePresence } from "framer-motion"
+
 
 const container = {
     hidden: { opacity: 0 },
@@ -17,24 +18,18 @@ const container = {
     show: {opacity:1, y: 0 }
   }
 
-const Accordion = ({accord,setAccord,accordNum,heading,bodyData}) => {
+const Accordion = ({heading,memberdata}) => {
 
-    const elementRef = useRef(null);
-
-    const scrollBack = ()=>elementRef.current.scrollIntoView()
 
   return (
-    <div className='relative glass w-full lg:w-[70%] p-4 rounded-box mt-4'>
-    <h1 className='text-2xl font-bold flex justify-between cursor-pointer'
-    ref={elementRef}
-    onClick={()=>{
-        setAccord(prev=>prev===accordNum?0:accordNum)
-        scrollBack()
-    }}>
+    <div className='relative w-full mt-4 pt-20 md:pt-2'>
+   
+   <div className='glass p-4 rounded-box'>
+   <h1 className='text-2xl font-bold cursor-pointer text-center border-b-4 pb-2  border-cyan-400'>
       <span>{heading}</span>
     </h1>
-  {
-      accord === accordNum && <motion.div 
+  
+       <motion.div 
       initial={{opacity:0}}
       animate={{opacity:1}}
       transition={{type:'spring,',stiffness:100}}
@@ -45,7 +40,7 @@ initial='hidden'
 animate='show'
      className='md:p-6 w-full sm:w-[70%] md:w-[80%] lg:w-[65%]'>
         {
-        bodyData.map(member=>
+          memberdata.map(member=>
         <motion.div variants={item} key={member.fullName}
         className="text-sm md:text-lg w-full p-1 text-black font-semibold border-b-[1px] border-stone-700 flex gap-3 justify-between md:justify-center">
         <span className='w-[55vw] md:text-[16px] lg:text-lg lg:p-2'>{member.fullName}</span>
@@ -55,7 +50,8 @@ animate='show'
 </motion.div>
 
     </motion.div>
-    }
+   </div>
+    
     </div>
   )
 }
