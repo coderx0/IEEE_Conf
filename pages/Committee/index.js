@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react'
 import gradients from "../../styles/customGradient.module.css"
 import ProfileCard from '../../components/ProfileCard'
 import { patrons,honChairs,genChairs,confChairs } from '../../data/committee'
-import CommitteeAccordion from '../../components/CommitteeAccordion'
 import { useScrollLock,useViewportSize  } from '@mantine/hooks'
 import CommitteeSidebar from '../../components/CommitteeSidebar'
 
