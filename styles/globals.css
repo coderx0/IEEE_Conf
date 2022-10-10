@@ -29,3 +29,20 @@ a {
   }
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track{
+  background-color:rgb(25, 27, 27);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color:rgb(87, 85, 203);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color:rgb(70, 122, 122)
+}

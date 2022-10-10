@@ -7,6 +7,8 @@ import Lottie from "lottie-react";
 import research from "../lottieFiles/research.json"
 import {useRouter} from 'next/router';
 import Map from './Map';
+import TechCollabGallery from './TechCollabGallery';
+import Sponsors from './Sponsors';
 
 const HomeMain = () => {
 
@@ -24,14 +26,14 @@ const HomeMain = () => {
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
                 <span className='text-orange-400'>1st</span> IEEE-International Conference on <span className='text-orange-400'>Microwave</span> , Antenna and <span className='text-green-500'>Communication</span>
             </div>
-          <div className='w-full my-12 flex justify-between lg:justify-start lg:gap-10 font-semibold p-2'>
+          <div className='w-full my-12 pl-6 sm:pl-0 flex justify-center gap-4 lg:justify-start lg:gap-10 font-semibold  md:p-2'>
         
-          <p className='flex items-center gap-3 '>
+          <p className='flex items-center gap-3'>
           <span className='bg-purple-200 rounded-full p-[13px]'>
-          <BsFillCalendarCheckFill className='w-4 h-4 text-lime-600'/>
+          <BsFillCalendarCheckFill className='w-3 h-3 md:w-5 md:h-5 text-lime-600'/>
           </span>
          <span className='text-sm lg:text-lg'> March 24-26 , 2023</span></p>
-         <p className='flex items-center gap-2'>
+         <p className='flex items-center justify-end gap-2'>
           <span className='bg-purple-200 rounded-full p-2'>
           <MdLocationOn className='w-5 h-5 md:w-8 md:h-8 text-blue-500'/>
           </span>
@@ -51,7 +53,7 @@ const HomeMain = () => {
         <span>Organised at</span>
         <p><span className='text-orange-500 font-bold text-xl'>
         MNNIT ALLAHABAD, India 
-        </span> in Technical Collaboration with <span className='text-red-600 font-bold'>Universite de Sherbrooke, Canada</span></p>
+        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Universite de Sherbrooke, Canada</span></p>
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg">
@@ -71,16 +73,19 @@ const HomeMain = () => {
   </div>
 </section>
 
-<section className="body-font">
+<section id="callforpaper" className="body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-last md:order-first mt-8 md:mt-0">
     <Lottie animationData={research} loop={true} />
     </div>
     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-    <h1 className="title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">Call For Paper
+    <h1  className="title-font text-4xl md:text-[5vw] lg:text-6xl mb-4 font-bold border-b-4 pb-4 border-cyan-600">
+    <span className='pr-6'>
+    Call For Paper
+    </span>
       </h1>
       <h2 className='text-orange-600 font-bold text-xl mb-6'>
-        "MICROWAVE , ANTENNA AND COMMUNICATION"
+        MICROWAVE , ANTENNA AND COMMUNICATION
       </h2>
       <p className='text-lg font-semibold'>
         The accepted and presented papers of the conference by duly registered authors will be submitted to IEEE Xplore Digital Library for possible publication after quick check.
@@ -100,13 +105,29 @@ const HomeMain = () => {
         </ul>
         </div>
       <div className="flex gap-4 justify-center">
-      <button className='btn btn-primary' onClick={()=>navigate('guideline')}>Guidelines</button>
+      <button className='btn btn-primary' onClick={()=>navigate('paperSubmission')}>Guidelines</button>
       <button className='btn btn-success font-semibold' onClick={()=>navigate('registration')}>Registration</button>
       </div>
     </div>
   </div>
 </section>
+
 <Map/>
+
+<section className="p-6">
+  <div className=" container mx-auto flex md:px-5 py-2 flex-col">
+     <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Collaborators
+      </h1>
+    <TechCollabGallery/>
+   <div className='bg-white my-4 rounded-lg'>
+   <h1 className="relative w-full text-center text-xl sm:text-2xl md:text-3xl font-bold py-2 lg:py-4 mb-2 border-b-4 border-cyan-400">Technical Sponsors
+      </h1>
+    <div className='px-6'>
+    <Sponsors/>
+    </div>
+   </div>
+  </div>
+</section>
 
     </div>
  </>

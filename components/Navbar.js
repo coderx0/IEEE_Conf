@@ -10,34 +10,61 @@ const Navbar = () => {
 
   return (
     <div className='fixed top-0 left-0 right-0 z-50 bg-black flex h-[72px] items-center p-6'>
-      <Link href='/'>
-      <span className={`flex-1 cursor-pointer font-bold text-3xl ${fonts.rubikFont}`}>
-            <span className='text-orange-400'>MAC</span><span>2023</span>
-        </span>
-      </Link>
+     
+      <div className={`flex-1 font-bold text-3xl`}>
+<div className=' flex flex-start'>
+<Link href='/'>
+<p className=' cursor-pointer'>
+<span className='text-orange-400'>MAC</span><span>2023</span>
+</p>
+</Link>
+</div>
+        </div>
+      
 
         <div className='hidden lg:flex lg:gap-2 text-lg font-semibold'>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
-              <Link href='/'>
+            <Link href='/'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
                 About
-              </Link>
             </span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            </Link>
             <Link href='/Committee'>
-            Committee
-            </Link></span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            Committee</span>
+            </Link>
             <Link href='/tracks'>
-            Tracks
-            </Link></span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
-            <Link href='/guideline'>
-              Guidelines
-            </Link></span>
-            <span className='w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
-            <Link href='/registration'>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            Tracks</span>
+            </Link>
+            <span className=' dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+         
+  <label tabIndex={0} className="m-1 relative">Author</label>
+  <div className='absolute top-[42px] -left-10 dropdown-content p-4'>
+  <ul tabIndex={0} className=" text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start">
+    <Link href='/paperSubmission'>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2 '>
+      Paper Submission
+    </li>
+    </Link>
+    <Link href='/registration'>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'>
+    Important Dates
+    </li>
+    </Link>
+    <Link href='/#callforpaper' scroll={false}>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'>Call For Paper</li>
+    </Link>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'> Download</li>
+  </ul>
+  </div>
+ 
+            </span>
+            <Link href='/registration#registration' scroll={false}>
+            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
             Registration
-            </Link></span>
+            </span>
+            </Link>
+            
         </div>
         
         

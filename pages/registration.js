@@ -28,12 +28,14 @@ const Registration = () => {
 </div>
 </div>
 </div>
-<h1 className='text-center text-3xl font-bold mt-12'>
+<div id='registration' className='h-12 w-full'>
+</div>
+<h1 className='text-center text-3xl font-bold mt-12' >
     <span className='border-b-4 border-blue-500 px-4 pb-4'>
     Registration Fee
     </span>
 </h1>
-<div className='flex justify-center mt-4'>
+<div className='flex justify-center mt-2'>
 <div className='mt-16 p-1 md:p-4 border-2 border-stone-400'>
 <table className='text-[12px] md:text-lg lg:text-lg'>
 <tbody>
