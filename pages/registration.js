@@ -15,8 +15,8 @@ const Registration = () => {
     <span className='text-right'>September 5, 2022</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
-    <span>Paper Submission Deadline</span>
-    <span className='text-right'>November 22, 2022</span>
+    <span className='text-red-500 font-bold'>Paper Submission Deadline</span>
+    <span className='text-red-500 font-bold right'>November 22, 2022</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span>Acceptamce Notification</span>
@@ -47,7 +47,7 @@ const Registration = () => {
     </tr>
     <tr className='border-b-2 border-stone-600'>
     <td className='sm:w-48 md:w-72 text-[13px] font-semibold md:text-[20px] lg:text-lg px-[3px] md:px-2 border-b-2 border-stone-400' rowSpan={5}>
-    Early Paper Submission Advantage (For Paper Submitted Till 31 October, 2022) </td>
+    Early Paper Submission Advantage (For Paper Submitted Till <span className='text-red-500 font-bold'>31 October, 2022</span>) </td>
     </tr>
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Student (IEEE)</td>
@@ -94,7 +94,7 @@ const Registration = () => {
     </tr>
     <tr>
     <td colSpan={4} className='pt-8 pb-4'>
-        * 10% Additional Rebate for Earlt Bird Registrations ( Before 31 Januray, 2023, 11 PM-IST ) on all types/ categories of registrations.
+        <span className='text-blue-500 font-bold '>* 10% Additional Rebate for Early Bird Registrations ( Before 31 Januray, 2023, 11 PM-IST ) on all types/ categories of registrations.</span>
     </td>
     </tr>
 </tbody>

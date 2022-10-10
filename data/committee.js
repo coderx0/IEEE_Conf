@@ -14,12 +14,19 @@ export const patrons =[
 ]
 
 export const honChairs =[
+        {
+        title:'Prof.',
+        fullName:'Sébastien Roy',
+        organisation:'Université de Sherbrooke, Canada',
+        profileImage:'roySeb.png'
+    },
     {
         title:'Prof.',
-        fullName:'Banmali Rawat',
-        organisation:'University of Nevada, Reno, USA',
-        profileImage:'/banmali.png'
+        fullName:'Bharat Rawal',
+        organisation:'Benedict College Columbia,USA',
+        profileImage:'/bharatRawal.png'
     },
+    
     {
         title:'Prof.',
         fullName:'R.K. Nagaria',
@@ -31,9 +38,9 @@ export const honChairs =[
 export const genChairs =[
     {
         title:'Prof.',
-        fullName:'Sébastien Roy',
-        organisation:'Université de Sherbrooke, Canada',
-        profileImage:'roySeb.png'
+        fullName:'Banmali Rawat',
+        organisation:'University of Nevada, Reno, USA',
+        profileImage:'/banmali.png'
     },
     {
         title:'Prof.',
@@ -50,17 +57,18 @@ export const genChairs =[
 ]
 
 export const confChairs =[
-    {
-        title:'Prof.',
-        fullName:'Bharat Rawal',
-        organisation:'USA',
-        profileImage:'/bharatRawal.png'
-    },
+   
     {
         title:'Prof.',
         fullName:'K.P. Ray, ',
         organisation:'DRDO, India',
         profileImage:'/kpRay.png'
+    },
+    {
+        title:'Dr.',
+        fullName:'Somak Bhattacharya, ',
+        organisation:'IIT BHU Varanasi, India',
+        profileImage:'/somak.jpg'
     },
     {
         title:'Prof.',
@@ -91,10 +99,7 @@ export const executiveCommittee =[
         fullName:'Mr. Evgeny Markin',
         organisation:'Richemar LLC, USA'
     },
-    {
-        fullName:'Prof. S.N. Singh',
-        organisation:'ABV-IIITM Gwalior, India'
-    },
+   
     {
         fullName:'Prof. Andrea Massa',
         organisation:'University of Trento, Italy'
@@ -120,13 +125,26 @@ export const executiveCommittee =[
         organisation:'ISRO India'
     },
     {
+        fullName:'Prof. Yogesh Singh Chauhan',
+        organisation:'IIT Kanpur, India'
+    },
+    {
+        fullName:'Dr. Hongwei(Howard)Liu',
+        organisation:'ARI & NARI, USA'
+    },
+    {
+        fullName:'Dr. Naser Ojaraoudi Parchin',
+        organisation:'Edinburgh Napier University, UK'
+    },
+    {
+        fullName:'Dr. Chandrakanta Kumar',
+        organisation:'ISRO, India'
+    },
+    {
         fullName:'Dr. Satish Kumar Singh',
         organisation:'IIIT Allahabad, India'
     },
-    {
-        fullName:'Dr. Somak Bhattacharyya',
-        organisation:'IIT BHU Varanasi, India'
-    },
+    
     {
         fullName:'Dr. Arun Prakash',
         organisation:'MNNIT Allahabad, India'
@@ -171,11 +189,15 @@ export const advisoryCommittee=[
         organisation:'IIT Roorkee, India'
     },
     {
+        fullName:'Prof. S.N. Singh',
+        organisation:'ABV-IIITM Gwalior, India'
+    },
+    {
         fullName:'Prof. Arvind Choubey',
         organisation:'IIIT Bhagalpur, India'
     },
     {
-        fullName:'Prof. Levent Sevg',
+        fullName:'Prof. Levent Sevgi',
         organisation:'ATLAS University, Turkey'
     },
     {
@@ -191,9 +213,10 @@ export const advisoryCommittee=[
         organisation:'University of Waterloo, Canada'
     },
     {
-        fullName:'Prof. Satish Kumar Sharma',
-        organisation:'SDSU, USA'
+        fullName:'Prof. K. Subramaniyan',
+        organisation:'IGNOU, India'
     },
+    
     {
         fullName:'Prof. M.V. Kartikeyan',
         organisation:'IIT Tirupati, India'
@@ -256,7 +279,7 @@ export const advisoryCommittee=[
     },
     {
         fullName:'Mr. Sanjeevikumar Padmanaban',
-        organisation:'Subject Editor EE (FACETS Journal), Canada'
+        organisation:'Canada'
     },
     {
         fullName:'Mr. Shobit Agarwal,',
@@ -290,13 +313,22 @@ export const techProCommittee=[
         fullName:'Prof. Mohammad S. Sharawi',
         organisation:' Polytechnique Montréal, Canada'
     },
+   
     {
         fullName:'Dr. Wen Cheng Lai',
         organisation:'National Yunlin University of Science and Technology, Taiwan'
     },
     {
+        fullName:'Dr. Rabie A. Ramadan',
+        organisation:'University of Hail, KSA'
+    },
+    {
         fullName:'Dr. Dhananjay Singh',
         organisation:'Hankuk University, South Korea'
+    },
+    {
+        fullName:'Mohseen Koohestani',
+        organisation:'ESEO, Angers, France'
     },
     {
         fullName:'Prof. M. Jaleel Akhtar',
@@ -339,6 +371,10 @@ export const techProCommittee=[
         organisation:'NIT Uttarakhand, India'
     },
     {
+        fullName:'Dr. M. Venkatesh Kumar',
+        organisation:'Amrita Vishwa Vidyapeeth,Chennai'
+    },
+    {
         fullName:'Dr. Rajan Mishra',
         organisation:' MMMUT Gorakhpur, India'
     },
@@ -355,7 +391,7 @@ export const youngProfessionals=[
     },
     {
         fullName:'Dr. Tushar Sharma',
-        organisation:' Renesas Electronics, San Diego, USA'
+        organisation:'Renesas Electronics, San Diego, USA'
     },
     {
         fullName:'Dr. Dinesh Yadav',
@@ -378,15 +414,15 @@ export const youngProfessionals=[
 export const womenInEngineering=[
     {
         fullName:'Dr. Meenakshi Rawat',
-        organisation:'IIT Roorkee'
+        organisation:'IIT Roorkee. India'
     },
     {
         fullName:'Dr. Seema Awasthi',
-        organisation:'IIIT Allahabad'
+        organisation:'IIIT Allahabad, India'
     },
     {
         fullName:'Dr. Shweta Tripathi',
-        organisation:'MNNIT Allahabad'
+        organisation:'MNNIT Allahabad, India'
     },
     {
         fullName:'Dr. Smriti Agarwal',
@@ -394,7 +430,7 @@ export const womenInEngineering=[
     },
     {
         fullName:'Dr. Situ Rani Patre',
-        organisation:' NIT Rourkela'
+        organisation:' NIT Rourkela,India'
     },
     {
         fullName:'Dr. Richa Agrawal',
@@ -503,6 +539,10 @@ export const studentActivity=[
     {
         fullName:'Dr. Deep Tripathi',
         organisation:'Université de Sherbrooke, Canada'
+    },
+    {
+        fullName:'Mr. Sheikh Dobir Hossain',
+        organisation:'University of Texas, USA'
     },
     {
         fullName:'Dr. Krishan Kumar',
