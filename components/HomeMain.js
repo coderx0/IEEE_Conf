@@ -43,8 +43,8 @@ const HomeMain = () => {
     </div>
 
     <div className={`w-full text-black ${gradients.homePage}`}>
-    <section className="p-6">
-  <div className=" container mx-auto flex md:px-5 py-2 md:flex-row flex-col items-center">
+    <section className="pt-6 w-full">
+  <div className=" container mx-auto flex md:px-2 py-2 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 px-6 lg:pr-24 md:pr-16 relative flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       
       <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">MAC2023
@@ -53,7 +53,7 @@ const HomeMain = () => {
         <span>Organised at</span>
         <p><span className='text-orange-500 font-bold text-xl'>
         MNNIT ALLAHABAD, India 
-        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Universite de Sherbrooke, Canada</span></p>
+        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Universite de Sherbrooke Canada<span className='text-black'> and</span> Benedict College , Columbia, USA</span></p>
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg">
@@ -74,7 +74,7 @@ const HomeMain = () => {
 </section>
 
 <section id="callforpaper" className="body-font">
-  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+  <div className="container mx-auto flex px-2 py-12 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-last md:order-first mt-8 md:mt-0">
     <Lottie animationData={research} loop={true} />
     </div>
@@ -92,7 +92,7 @@ const HomeMain = () => {
       </p>
       <div className="my-8 leading-relaxed">
       <p className='text-lg'>
-      The technical sessions will have four tracks covering all major and emrging areas of Microwave, Antenna and Communication. Every track will comprised with
+      The technical sessions will have four tracks covering all major and emerging areas of Microwave, Antenna and Communication. Every track will comprised with
         following events
       </p>
         <ul className='pl-6 font-semibold pt-4 text-left'>
@@ -101,7 +101,7 @@ const HomeMain = () => {
             <li className='list-disc'>Key Note Lectures</li>
             <li className='list-disc'>Special Sesisons</li>
             <li className='list-disc'>Panel Discussions</li>
-            <li className='list-disc'>Techinacl/Industrial Workshop</li>
+            <li className='list-disc'>Technical/Industrial Workshop</li>
         </ul>
         </div>
       <div className="flex gap-4 justify-center">
