@@ -1,6 +1,6 @@
 import React from 'react'
 import hovers from "../styles/track.module.css"
-
+import Link from "next/link"
 
 const RightImageCard = ({title,image,description}) => {
   return (
@@ -14,8 +14,12 @@ const RightImageCard = ({title,image,description}) => {
                     </h1>
                     <p className="mb-8 leading-relaxed">{description}</p>
                     <div className="flex justify-center">
-                        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Registration</button>
-                        <button class="ml-4 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Guideline</button>
+                    <Link href='/paperSubmission'>
+                    <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Guidelines</button>
+                    </Link>
+                    <Link href='/registration#registration'>
+                    <button className="ml-4 inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">Registration</button>
+                    </Link>
                     </div>
                     </div>
                 </div>

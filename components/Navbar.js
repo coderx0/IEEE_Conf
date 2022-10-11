@@ -14,8 +14,8 @@ const Navbar = () => {
       <div className={`flex-1 font-bold text-3xl`}>
 <div className=' flex flex-start'>
 <Link href='/'>
-<p className=' cursor-pointer'>
-<span className='text-orange-400'>MAC</span><span>2023</span>
+<p className=' cursor-pointer font-extrabold'>
+<span className='text-orange-400'>MAC</span><span className='text-white'>2023</span>
 </p>
 </Link>
 </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
             </Link>
             <span className='text-white dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
          
-  <label tabIndex={0} className="m-1 relative text-white">Author</label>
+  <label tabIndex={0} className="m-1 relative text-white">Authors</label>
   <div className='absolute top-[42px] -left-10 dropdown-content p-4'>
   <ul tabIndex={0} className="text-white text-[17px] font-semibold menu p-2 shadow bg-stone-800 rounded-xl w-52 flex flex-col items-start">
     <Link href='/paperSubmission'>
@@ -60,7 +60,7 @@ const Navbar = () => {
  
             </span>
             <Link href='/registration#registration' scroll={false}>
-            <span className='cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
+            <span className='text-white cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:border-white'>
             Registration
             </span>
             </Link>

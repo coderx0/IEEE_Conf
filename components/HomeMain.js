@@ -24,7 +24,7 @@ const HomeMain = () => {
         <HomeImageGallery/>
         <div className='absolute top-10 md:top-[20%] lg:top-[10%] xl:top-[20%] left-0 z-10 w-full md:w-[50%] lg:w-[50%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
-                <span className='text-orange-400'>1st</span> IEEE-International Conference on <span className='text-orange-400'>Microwave</span> , Antenna and <span className='text-green-500'>Communication</span>
+                <span className='text-orange-400'>1st</span> <span className='text-white'>IEEE-International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication</span>
             </div>
           <div className='w-full my-12 pl-6 sm:pl-0 flex justify-center gap-4 lg:justify-start lg:gap-10 font-semibold  md:p-2'>
         
@@ -32,12 +32,12 @@ const HomeMain = () => {
           <span className='bg-purple-200 rounded-full p-[13px]'>
           <BsFillCalendarCheckFill className='w-3 h-3 md:w-5 md:h-5 text-lime-600'/>
           </span>
-         <span className='text-sm lg:text-lg'> March 24-26 , 2023</span></p>
+         <span className='text-sm lg:text-lg text-white'> March 24-26 , 2023</span></p>
          <p className='flex items-center justify-end gap-2'>
           <span className='bg-purple-200 rounded-full p-2'>
           <MdLocationOn className='w-5 h-5 md:w-8 md:h-8 text-blue-500'/>
           </span>
-         <span className='text-sm lg:text-lg'> MNNIT ALLAHABAD</span></p>
+         <span className='text-sm lg:text-lg text-white'> MNNIT ALLAHABAD</span></p>
           </div>
         </div>
     </div>
