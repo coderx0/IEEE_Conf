@@ -458,8 +458,8 @@ export const committeeMembers = [
         ]
     },
     {
-        title:'SIGHT',
-        name:'sight',
+        title:'Special Interest Group On Humanitarian Technology',
+        name:'SpecialInterestGroupOnHumanitarianTechnology',
         data:[
             {
                 fullName:'Dr. Dharmnedra Kumar Jhariya',

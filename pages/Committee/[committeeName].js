@@ -24,7 +24,7 @@ const CommitteeMembers = ({committeeData}) => {
        
        <div className='relative md:flex '>
      <CommitteeSidebar width={width} isOpen={isOpen} setIsOpen={setIsOpen}/>
-     <div className='md:w-[80%] pb-8 mt-4'>
+     <div className='md:w-[70%] pb-8 mt-4'>
           <div className='mx-3 md:mx-4'>
           <Accordion heading={committeeData[0].title} memberdata = {committeeData[0].data}/>
         </div>

@@ -38,7 +38,7 @@ const Accordion = ({heading,memberdata}) => {
 <motion.div variants={container}
 initial='hidden'
 animate='show'
-     className='md:p-6 w-full sm:w-[70%] md:w-[80%] lg:w-[65%]'>
+     className='md:p-6 w-full sm:w-[70%] md:w-[0%] lg:w-[75%]'>
         {
           memberdata.map(member=>
         <motion.div variants={item} key={member.fullName}

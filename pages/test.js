@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import gradients from "../styles/customGradient.module.css"
 import ProfileCard from '../components/ProfileCard'
 import { patrons,honChairs,genChairs,confChairs } from '../data/committee'
-import CommitteeAccordion from '../components/CommitteeAccordion'
+// import CommitteeAccordion from '../components/CommitteeAccordion'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -128,7 +128,7 @@ const test = () => {
             </div>
 
            <div className='mx-3 md:mx-4 text-gray-800'>
-         <CommitteeAccordion/>
+         {/* <CommitteeAccordion/> */}
          </div>
             </main>
           </div>
