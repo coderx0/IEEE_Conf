@@ -25,10 +25,10 @@ const Committee = () => {
        
         <div className='relative md:flex '>
       <CommitteeSidebar width={width} isOpen={isOpen} setIsOpen={setIsOpen}/>
-      <div className='md:w-[80%] pb-8'>
+      <div className='md:w-[70%] lg:w-[75%] pb-8'>
       <div className='mt-2 mx-2 p-8 rounded-box flex flex-col gap-2 items-center'>
          <div >
-         <div id='chiefpatron' className='h-20'></div>
+         <div id='chiefpatron' className='h-20 mb-16 md:mb-0'></div>
          <h1 className='mb-4 text-xl md:text-3xl font-bold'>Chief Patron</h1>
 
 <ProfileCard
@@ -41,7 +41,7 @@ const Committee = () => {
          </div>
             
          <div>
-         <div id='patron' className='h-20'></div>
+         <div id='patron' className='h-20 mb-16 md:mb-0'></div>
          <h1 className='mb-6 text-xl md:text-3xl font-bold'>Patrons</h1>
             <div className='flex gap-8 flex-wrap'>
           {patrons.map(patron=>  <ProfileCard
@@ -56,7 +56,7 @@ const Committee = () => {
          </div>
         
        <div>
-       <div id='honchairs' className='h-20'></div>
+       <div id='honchairs' className='h-20 mb-16 md:mb-0'></div>
        <h1 className='mb-6 text-xl md:text-3xl font-bold'>Honorary Chairs</h1>
             <div className='flex gap-8 flex-wrap'>
           {honChairs.map(chair=>  <ProfileCard
@@ -71,7 +71,7 @@ const Committee = () => {
        </div>
 
       <div>
-      <div id='genchairs' className='h-20'></div>
+      <div id='genchairs' className='h-20 mb-16 md:mb-0'></div>
       <h1 className='mb-6 text-xl md:text-3xl font-bold'>General Chairs</h1>
             <div className='flex gap-8 flex-wrap'>
           {genChairs.map(chair=>  <ProfileCard
@@ -86,7 +86,7 @@ const Committee = () => {
       </div>
 
         <div>
-        <div id='confchairs' className='h-20'></div>
+        <div id='confchairs' className='h-20 mb-16 md:mb-0'></div>
         <h1 className='mb-6 text-xl md:text-3xl font-bold'>Conference Chairs</h1>
             <div className='flex gap-8 flex-wrap'>
           {confChairs.map(chair=>  <ProfileCard

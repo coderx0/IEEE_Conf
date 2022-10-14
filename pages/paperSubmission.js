@@ -13,12 +13,12 @@ const guideline = () => {
               <h1 className=" text-center text-black text-4xl sm:text-5xl font-bold leading-[3rem] border-b-4 border-blue-500 pb-1 md:pb-3 ">Guidelines</h1>
               {/* <div className="mt-1 sm:mt-4 h-1 w-12 sm:w-20 bg-blue-600 rounded"></div> */}
             </div>
-            <section className="text-gray-600 body-font  border-rose-500 rounded mt-4 !ml-0">
-              <div className=" flex px-5 gap-4 md:flex-row flex-col items-center ml-0">
+            <section className=" p-5  text-gray-600 body-font  border-rose-500 rounded mt-4 !ml-0">
+              <div className=" flex gap-4 md:flex-row flex-col items-center ">
                 <div className=" lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-2 md:mb-0 items-center text-center">
                   <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Paper Submission
                   </h1>
-                  <p className="md:mb-8 leading-relaxed  md:font-semibold md:text-lg">Any interested student/researcher/academician/industry person can
+                  <p className="px-32 md:mb-8 leading-relaxed  md:font-semibold md:text-lg ">Any interested student/researcher/academician/industry person can
                     submit their original and previously unpublished work, including specific
                     results. All papers are required to be prepared and submitted in the IEEE
                     Standard two-column conference format of A4 size in English. Papers must
@@ -49,7 +49,6 @@ const guideline = () => {
 
               </div>
             </section>
-            
           </main>
         </div>
 
