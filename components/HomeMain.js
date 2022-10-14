@@ -44,7 +44,7 @@ const HomeMain = () => {
 
     <div className={`w-full text-black ${gradients.homePage}`}>
     <section className="pt-6 w-full">
-  <div className=" container mx-auto flex md:px-2 py-2 md:flex-row flex-col items-center">
+  <div className=" container mx-auto flex md:px-5 py-2 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 px-6 lg:pr-24 md:pr-16 relative flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       
       <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">MAC2023
@@ -74,7 +74,7 @@ const HomeMain = () => {
 </section>
 
 <section id="callforpaper" className="body-font">
-  <div className="container mx-auto flex px-2 py-12 md:flex-row flex-col items-center">
+  <div className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 order-last md:order-first mt-8 md:mt-0">
     <Lottie animationData={research} loop={true} />
     </div>
