@@ -68,7 +68,7 @@ export const confChairs =[
         title:'Dr.',
         fullName:'Somak Bhattacharya, ',
         organisation:'IIT BHU Varanasi, India',
-        profileImage:'/somak.jpg'
+        profileImage:'/somak.png'
     },
     {
         title:'Prof.',
