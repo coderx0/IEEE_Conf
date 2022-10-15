@@ -94,7 +94,7 @@ const Registration = () => {
     </tr>
     <tr>
     <td colSpan={4} className='pt-8 pb-4'>
-        <span className='text-blue-500 font-bold '>* 10% Additional Rebate for Early Bird Registrations ( Before 31 Januray, 2023, 11 PM-IST ) on all types/ categories of registrations.</span>
+        <span className='text-blue-500 font-bold '>* 10% Additional Rebate for Early Bird Registrations ( Before 31 January, 2023, 11 PM-IST ) on all types/ categories of registrations.</span>
     </td>
     </tr>
 </tbody>
