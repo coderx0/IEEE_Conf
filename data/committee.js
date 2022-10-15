@@ -50,7 +50,7 @@ export const genChairs =[
     },
     {
         title:'Prof.',
-        fullName:'V.S. Tripathi, ',
+        fullName:'V.S. Tripathi ',
         organisation:'MNNIT Allahabad, India',
         profileImage:'/vsTripathi.png'
     }
@@ -66,7 +66,7 @@ export const confChairs =[
     },
     {
         title:'Dr.',
-        fullName:'Somak Bhattacharya, ',
+        fullName:'Somak Bhattacharyya, ',
         organisation:'IIT BHU Varanasi, India',
         profileImage:'/somak.png'
     },
@@ -133,7 +133,7 @@ export const committeeMembers = [
                 organisation:'IIT Kanpur, India'
             },
             {
-                fullName:'Dr. Hongwei(Howard)Liu',
+                fullName:'Dr. Hongwei (Howard) Liu',
                 organisation:'ARI & NARI, USA'
             },
             {
@@ -340,7 +340,7 @@ export const committeeMembers = [
                 organisation:'Hankuk University, South Korea'
             },
             {
-                fullName:'Mohseen Koohestani',
+                fullName:'Dr. Mohseen Koohestani',
                 organisation:'ESEO, Angers, France'
             },
             {
@@ -385,7 +385,7 @@ export const committeeMembers = [
             },
             {
                 fullName:'Dr. M. Venkatesh Kumar',
-                organisation:'Amrita Vishwa Vidyapeeth,Chennai'
+                organisation:'Amrita Vishwa Vidyapeetham,Chennai'
             },
             {
                 fullName:'Dr. Rajan Mishra',
@@ -403,7 +403,7 @@ export const committeeMembers = [
         data:[
             {
                 fullName:'Dr. Debdeep Sarkar',
-                organisation:'IISC Banglore, India'
+                organisation:'IISc Banglore, India'
             },
             {
                 fullName:'Dr. Tushar Sharma',
@@ -462,7 +462,7 @@ export const committeeMembers = [
         name:'SpecialInterestGroupOnHumanitarianTechnology',
         data:[
             {
-                fullName:'Dr. Dharmnedra Kumar Jhariya',
+                fullName:'Dr. Dharmendra Kumar Jhariya',
                 organisation:'NIT Delhi, India'
             },
             {

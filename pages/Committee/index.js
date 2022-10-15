@@ -33,7 +33,7 @@ const Committee = () => {
 
 <ProfileCard
     title='Prof.'
-    fullName="Rama Shankar Verma"
+    fullName="Rama Shanker Verma"
     post='Director'
     organisation="MNNIT Allahabad, India"
     profileImage='/ramaBG.png'

@@ -54,7 +54,10 @@ const Navbar = () => {
     <Link href='/#callforpaper' scroll={false}>
     <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'>Call For Papers</li>
     </Link>
+    <a href='/MAC2023.pdf' download={true}>
     <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'> Download</li>
+    </a>
+    
   </ul>
   </div>
  
@@ -68,7 +71,7 @@ const Navbar = () => {
         </div>
         
         
-        <span className='block lg:hidden' onClick={()=>setIsOpenSidebar(prev=>!prev)}><GiHamburgerMenu className='w-6 h-6'/></span>
+        <span className='block lg:hidden' onClick={()=>setIsOpenSidebar(prev=>!prev)}><GiHamburgerMenu className='w-6 h-6 text-white'/></span>
         <AnimatePresence>
         {isOpenSidebar && <Sidebar setIsOpenSidebar={setIsOpenSidebar}/>}
         </AnimatePresence>
