@@ -55,7 +55,7 @@ const Navbar = () => {
     <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'>Call For Papers</li>
     </Link>
     <a href='/MAC2023.pdf' download={true}>
-    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'> Download</li>
+    <li className='hover:bg-white hover:text-black rounded-lg w-full text-left p-2'>Download Flyer</li>
     </a>
     
   </ul>

@@ -44,7 +44,7 @@ export const genChairs =[
     },
     {
         title:'Prof.',
-        fullName:'N.P. Pathak, ',
+        fullName:'N.P. Pathak ',
         organisation:'IIT Roorkee, India',
         profileImage:'/npPathak.png'
     },

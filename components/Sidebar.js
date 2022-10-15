@@ -86,7 +86,7 @@ const Sidebar = ({setIsOpenSidebar}) => {
     </li>
     <a download={true} href='/MAC2023.pdf'>
     <li className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
-      Download
+      Download Flyer
     </li>
     </a>
   </ul>
