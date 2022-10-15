@@ -36,7 +36,7 @@ const Committee = () => {
     fullName="Rama Shanker Verma"
     post='Director'
     organisation="MNNIT Allahabad, India"
-    profileImage='/ramaBG.png'
+    profileImage='/ramaBG.webp'
 />
          </div>
             

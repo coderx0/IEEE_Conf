@@ -68,7 +68,7 @@ const HomeMain = () => {
     </div>
     
     <div className="w-full lg:w-[40%] bg-red-100">
-      <img className="object-cover object-center" alt="hero" src="/conf.jpg"/>
+      <img className="object-cover object-center" alt="hero" src="/conf.webp"/>
     </div>
   </div>
 </section>

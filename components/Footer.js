@@ -12,13 +12,13 @@ const Footer = () => {
   <div className=" px-5 py-12 mx-auto flex sm:items-start sm:flex-row  flex-wrap flex-col">
     <div className="lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
       <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">
-      <Image src="/MNNITLogo.png" alt="Picture of the author" width={100} height={130} className='text-center text-white p-2 ' />
+      <Image src="/MNNITLogo.webp" alt="Picture of the author" width={100} height={130} className='text-center text-white p-2 ' />
       </a>
       <p className="mt-2 text-sm text-center m-auto text-gray-500">MNNIT Allahabad</p>
     </div>
     <div className="mt-10 sm:mt-0 lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
       <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">
-      <Image src="/IEEE.png" alt="Picture of the author" width={240} height={135} className='bg-stone-50 object-center object-cover text-center text-white p-2 ' />
+      <Image src="/IEEE.webp" alt="Picture of the author" width={240} height={135} className='bg-stone-50 object-center object-cover text-center text-white p-2 ' />
       </a>
       <p className="mt-2 text-sm text-center m-auto text-gray-500">IEEE</p>
     </div>

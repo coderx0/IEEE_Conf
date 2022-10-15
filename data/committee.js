@@ -3,13 +3,13 @@ export const patrons =[
         title:'Prof.',
         fullName:'Sudarshan Tiwari',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/su.png'
+        profileImage:'/su.webp'
     },
     {
         title:'Prof.',
         fullName:'Rajeev Tripathi',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/rajeev.png'
+        profileImage:'/rajeev.webp'
     }
 ]
 
@@ -18,20 +18,20 @@ export const honChairs =[
         title:'Prof.',
         fullName:'Sébastien Roy',
         organisation:'Université de Sherbrooke, Canada',
-        profileImage:'roySeb.png'
+        profileImage:'roySeb.webp'
     },
     {
         title:'Prof.',
         fullName:'Bharat Rawal',
         organisation:'Benedict College Columbia,USA',
-        profileImage:'/bharatRawal.png'
+        profileImage:'/bharatRawal.webp'
     },
     
     {
         title:'Prof.',
         fullName:'R.K. Nagaria',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/rk.png'
+        profileImage:'/rk.webp'
     }
 ]
 
@@ -40,19 +40,19 @@ export const genChairs =[
         title:'Prof.',
         fullName:'Banmali Rawat',
         organisation:'University of Nevada, Reno, USA',
-        profileImage:'/banmali.png'
+        profileImage:'/banmali.webp'
     },
     {
         title:'Prof.',
         fullName:'N.P. Pathak ',
         organisation:'IIT Roorkee, India',
-        profileImage:'/npPathak.png'
+        profileImage:'/npPathak.webp'
     },
     {
         title:'Prof.',
         fullName:'V.S. Tripathi ',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/vsTripathi.png'
+        profileImage:'/vsTripathi.webp'
     }
 ]
 
@@ -62,19 +62,19 @@ export const confChairs =[
         title:'Prof.',
         fullName:'K.P. Ray, ',
         organisation:'DRDO, India',
-        profileImage:'/kpRay.png'
+        profileImage:'/kpRay.webp'
     },
     {
         title:'Dr.',
         fullName:'Somak Bhattacharyya, ',
         organisation:'IIT BHU Varanasi, India',
-        profileImage:'/somak.png'
+        profileImage:'/somak.webp'
     },
     {
         title:'Prof.',
         fullName:'R.A. Mishra',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'raMishra.png'
+        profileImage:'raMishra.webp'
     }
 ]
 
