@@ -3,7 +3,7 @@ export const patrons =[
         title:'Prof.',
         fullName:'Sudarshan Tiwari',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/tiwariBG.png'
+        profileImage:'/su.png'
     },
     {
         title:'Prof.',
