@@ -18,17 +18,19 @@ const guideline = () => {
                 <div className=" lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left mb-2 md:mb-0 items-center text-center">
                   <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Paper Submission
                   </h1>
-                  <p className="px-16 md:px-0 md:mb-8 leading-relaxed  md:font-semibold md:text-lg ">Any interested student/researcher/academician/industry person can
-                    submit their original and previously unpublished work, including specific
-                    results. All papers are required to be prepared and submitted in the IEEE
-                    Standard two-column conference format of A4 size in English. Papers must
-                    be four to five pages in length, including texts, Figures, photographs and
-                    references. Any submitted paper that exceeds five pages will be rejected. The
-                    first page must include the title of the paper, author(s), affiliations, address
-                    and text. Please do not include page number on submitted documents.
-                    Failing to conform to the standard format will result in rejection. Detailed
-                    format information is available in IEEE Website. The similarity score of the
-                    paper should not be more than 15%.</p>
+                  <p className="px-16 md:px-0 md:mb-8 leading-relaxed  md:font-semibold md:text-lg ">Interested students/researchers/academicians/industry persons can submit
+their original and previously unpublished work, including specific results. All
+
+papers are required to be prepared and submitted in the IEEE Standard two-
+column conference format of A4 size in English. Papers must be four to six
+
+pages in length, including texts, figures, photographs and references. The
+first page must include the title of the paper, author(s), affiliations, address
+and text. Please do not include page number on submitted documents.
+Failing to confirm to the standard format will result in rejection. Detailed
+format information is available at IEEE Website
+<a href='https://www.ieee.org/conferences/publishing/templates.html' target='_blank' className='folt-bold text-blue-500' rel="noreferrer"> (this)</a>. The
+similarity score of the paper should not be more than 15%.</p>
                   <h1 className="title-font sm:text-4xl text-3xl mb-4 mt-8 md:mt-2 font-medium text-gray-900 block">Paper Submission Link
                   </h1>
                   <p className="px-16 md:px-0 mb-4 leading-relaxed  md:font-semibold md:text-lg">All papers must be submitted in PDF via Microsoft CMT:</p>

@@ -53,14 +53,14 @@ const HomeMain = () => {
         <span>Organised at</span>
         <p><span className='text-orange-500 font-bold text-xl'>
         MNNIT ALLAHABAD, India 
-        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Universite de Sherbrooke Canada<span className='text-black'> and</span> Benedict College , Columbia, USA</span></p>
+        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Université de Sherbrooke Canada<span className='text-black'> and</span> Benedict College , Columbia, USA</span></p>
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg">
     The 1st IEEE International Conference on Microwave, Antenna and Communication -MAC 2023 will be
     held in offline / hybrid mode at MNNIT ALLAHABAD in Sangam City - Prayagraj, U.P, India, during 
     March 24-26 , 2023.    
-    The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase thei researcg innovations, knowledge and vision.
+    The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
     MAC2023 will include focused track in Young Professionals , Women in Engineering and SIGHT along with technical sessions on recent developments.
     </p>
  
@@ -88,16 +88,15 @@ const HomeMain = () => {
         MICROWAVE , ANTENNA AND COMMUNICATION
       </h2>
       <p className='text-lg font-semibold'>
-        The accepted and presented papers of the conference by duly registered authors will be submitted to IEEE Xplore Digital Library for possible publication after quick check.
+        The accepted and presented papers of the conference by duly registered authors will be submitted to IEEE Xplore Digital Library for possible publication after quality check.
       </p>
       <div className="my-8 leading-relaxed">
       <p className='text-lg'>
-      The technical sessions will have four tracks covering all major and emerging areas of Microwave, Antenna and Communication. Every track will comprised with
+      The technical sessions will have four tracks covering recent and emerging research topics in the field of Microwave, Antenna and Communication. Every track will have the
         following events
       </p>
-        <ul className='pl-6 font-semibold pt-4 text-left'>
+        <ul className='pl-6 font-semibold pt-4 text-left text-lg'>
             <li className='list-disc'>Paper Presentations and best paper awards</li>
-            <li className='list-disc '>Poster Presentations and best poster awards</li>
             <li className='list-disc'>Key Note Lectures</li>
             <li className='list-disc'>Special Sesisons</li>
             <li className='list-disc'>Panel Discussions</li>
