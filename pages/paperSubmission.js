@@ -32,7 +32,7 @@ const guideline = () => {
                   <h1 className="title-font sm:text-4xl text-3xl mb-4 mt-8 md:mt-2 font-medium text-gray-900 block">Paper Submission Link
                   </h1>
                   <p className="mb-4 leading-relaxed  md:font-semibold md:text-lg">All papers must be submitted in PDF via Microsoft CMT:</p>
-                  <a className='text-rose-500 cursor-pointer inline-block md:text-lg' href='https://cmt3.research.microsoft.com/MAC2023' target='_blank'>https://cmt3.research.microsoft.com/MAC2023</a>
+                  <a className='text-rose-500 cursor-pointer inline-block md:text-lg' href='https://cmt3.research.microsoft.com/MAC2023' target='_blank' rel='noreferrer'>https://cmt3.research.microsoft.com/MAC2023</a>
                 </div>
                 <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 order-12   ">
                   <Lottie animationData={examsPreparation} loop={true} />
