@@ -28,13 +28,13 @@ const Footer = () => {
         <nav className="list-none mb-10 mt-3 ">
           
           <li>
-          <a href='https://mtt.org/' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE MTT</a>
+          <a href='https://mtt.org/' target='_blank' rel="noreferrer" className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE MTT</a>
           </li> 
           <li>
-          <a href='https://ieeeaps.org/' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE APS</a>
+          <a href='https://ieeeaps.org/' target='_blank' rel="noreferrer"  className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE APS</a>
           </li> 
           <li>
-          <a href='https://www.comsoc.org/' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE COMSOC</a>
+          <a href='https://www.comsoc.org/' target='_blank' rel="noreferrer"  className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE COMSOC</a>
           </li> 
         
         </nav>
@@ -44,19 +44,19 @@ const Footer = () => {
         {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
         <nav className="list-none mb-10 mt-3 ">
           <li>
-            <a href='https://www.ieee.org/membership/join/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=join' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 cursor-pointer">Join</a>
+            <a href='https://www.ieee.org/membership/join/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=join' target='_blank' rel="noreferrer"  className="font-bold text-gray-700 hover:text-rose-500 cursor-pointer">Join</a>
           </li>
           <li>
-          <a href='https://www.ieee.org/membership/renew.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=renew' target='_blank' className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer">Renew</a>
+          <a href='https://www.ieee.org/membership/renew.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=renew' target='_blank' rel="noreferrer"  className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer">Renew</a>
           </li>
           <li>
-          <a href='https://www.ieee.org/membership/benefits/index.html' target='_blank' className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer">Benefits</a>
+          <a href='https://www.ieee.org/membership/benefits/index.html' target='_blank' rel="noreferrer"  className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer">Benefits</a>
           </li>
           <li>
-          <a href='https://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=collabratec-membership-list' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE Collabratec</a>
+          <a href='https://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=collabratec-membership-list' target='_blank' rel="noreferrer"  className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE Collabratec</a>
           </li> 
           <li>
-          <a href='https://ieeexplore.ieee.org/Xplore/home.jsp' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE Xplore</a>
+          <a href='https://ieeexplore.ieee.org/Xplore/home.jsp' target='_blank' rel="noreferrer"  className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE Xplore</a>
           </li> 
         
         </nav>
