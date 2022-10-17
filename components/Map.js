@@ -3,8 +3,8 @@ import React from 'react'
 const Map = () => {
   return (
     <>
-    <section className="text-gray-600 body-font relative mx-6 pb-16 !ml-0">
-                <div className=" px-5 py-2 mt-8 md:mx-4 lg:mx-12 ">
+    <section className="text-gray-600 body-font relative mx-6 pb-16 ">
+                <div className=" px-0 sm:px-5 py-2 mt-8 md:mx-4 lg:mx-12 ">
                 <div className='mt-8 pb-4 flex flex-col items-center justify-center'>
                 <h1 className='title-font text-center font-bold text-3xl sm:text-4xl  text-gray-900 border-b-4 border-blue-500 pb-1 md:pb-2'>Venue</h1>
                 </div>
