@@ -32,11 +32,11 @@ const Committee = () => {
          <h1 className='mb-4 text-xl md:text-3xl font-bold'>Chief Patron</h1>
 
 <ProfileCard
-    title='Prof'
-    fullName="Rama Shankar Verma"
+    title='Prof.'
+    fullName="Rama Shanker Verma"
     post='Director'
     organisation="MNNIT Allahabad, India"
-    profileImage='/ramaBG.png'
+    profileImage='/ramaBG.webp'
 />
          </div>
             

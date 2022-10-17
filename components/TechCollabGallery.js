@@ -29,7 +29,7 @@ export default function TechCollabGallery() {
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/canada.jpeg" className="w-full h-full opacity-70 object-cover"/>
+src="/canada.webp" className="w-full h-full opacity-70 object-cover"/>
 </div>        
 <div className="absolute bottom-0 left-0 bg-gradient-to-t from-slate-900 w-full">
 <h1 className="text-3xl text-white font-semibold p-4 py-12">Université de Sherbrooke, Canada</h1>
@@ -41,7 +41,7 @@ src="/canada.jpeg" className="w-full h-full opacity-70 object-cover"/>
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/benedict.jpg" className="w-full h-full brightness-75  object-cover"/>
+src="/benedict.webp" className="w-full h-full brightness-75  object-cover"/>
 
 </div> 
 <div className="absolute bottom-0 left-0 bg-gradient-to-t from-slate-900 w-full">

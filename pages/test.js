@@ -60,7 +60,7 @@ const test = () => {
     fullName="Rama Shankar Verma"
     post='Director'
     organisation="MNNIT Allahabad, India"
-    profileImage='/ramaBG.png'
+    profileImage='/ramaBG.webp'
 />
          </div>
          </div>

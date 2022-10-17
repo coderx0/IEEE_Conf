@@ -3,13 +3,13 @@ export const patrons =[
         title:'Prof.',
         fullName:'Sudarshan Tiwari',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/tiwariBG.png'
+        profileImage:'/su.webp'
     },
     {
         title:'Prof.',
         fullName:'Rajeev Tripathi',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/rajeev.png'
+        profileImage:'/rajeev.webp'
     }
 ]
 
@@ -18,20 +18,20 @@ export const honChairs =[
         title:'Prof.',
         fullName:'Sébastien Roy',
         organisation:'Université de Sherbrooke, Canada',
-        profileImage:'roySeb.png'
+        profileImage:'roySeb.webp'
     },
     {
         title:'Prof.',
         fullName:'Bharat Rawal',
         organisation:'Benedict College Columbia,USA',
-        profileImage:'/bharatRawal.png'
+        profileImage:'/bharatRawal.webp'
     },
     
     {
         title:'Prof.',
         fullName:'R.K. Nagaria',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/rk.png'
+        profileImage:'/rk.webp'
     }
 ]
 
@@ -40,19 +40,19 @@ export const genChairs =[
         title:'Prof.',
         fullName:'Banmali Rawat',
         organisation:'University of Nevada, Reno, USA',
-        profileImage:'/banmali.png'
+        profileImage:'/banmali.webp'
     },
     {
         title:'Prof.',
-        fullName:'N.P. Pathak, ',
+        fullName:'N.P. Pathak ',
         organisation:'IIT Roorkee, India',
-        profileImage:'/npPathak.png'
+        profileImage:'/npPathak.webp'
     },
     {
         title:'Prof.',
-        fullName:'V.S. Tripathi, ',
+        fullName:'V.S. Tripathi ',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'/vsTripathi.png'
+        profileImage:'/vsTripathi.webp'
     }
 ]
 
@@ -60,21 +60,21 @@ export const confChairs =[
    
     {
         title:'Prof.',
-        fullName:'K.P. Ray, ',
+        fullName:'K.P. Ray ',
         organisation:'DRDO, India',
-        profileImage:'/kpRay.png'
+        profileImage:'/kpRay.webp'
     },
     {
         title:'Dr.',
-        fullName:'Somak Bhattacharya, ',
+        fullName:'Somak Bhattacharyya ',
         organisation:'IIT BHU Varanasi, India',
-        profileImage:'/somak.jpg'
+        profileImage:'/somak.webp'
     },
     {
         title:'Prof.',
         fullName:'R.A. Mishra',
         organisation:'MNNIT Allahabad, India',
-        profileImage:'raMishra.png'
+        profileImage:'raMishra.webp'
     }
 ]
 
@@ -88,7 +88,7 @@ export const committeeMembers = [
                 organisation:'Georgia Institute of Technology, USA'
             },
             {
-                fullName:'Dr. S.K. Varshney, ',
+                fullName:'Dr. S.K. Varshney ',
                 organisation:'Adviser/Scientist G, DST, Government of India'
             },
             {
@@ -133,7 +133,7 @@ export const committeeMembers = [
                 organisation:'IIT Kanpur, India'
             },
             {
-                fullName:'Dr. Hongwei(Howard)Liu',
+                fullName:'Dr. Hongwei (Howard) Liu',
                 organisation:'ARI & NARI, USA'
             },
             {
@@ -340,7 +340,7 @@ export const committeeMembers = [
                 organisation:'Hankuk University, South Korea'
             },
             {
-                fullName:'Mohseen Koohestani',
+                fullName:'Dr. Mohseen Koohestani',
                 organisation:'ESEO, Angers, France'
             },
             {
@@ -385,7 +385,7 @@ export const committeeMembers = [
             },
             {
                 fullName:'Dr. M. Venkatesh Kumar',
-                organisation:'Amrita Vishwa Vidyapeeth,Chennai'
+                organisation:'Amrita Vishwa Vidyapeetham,Chennai'
             },
             {
                 fullName:'Dr. Rajan Mishra',
@@ -403,7 +403,7 @@ export const committeeMembers = [
         data:[
             {
                 fullName:'Dr. Debdeep Sarkar',
-                organisation:'IISC Banglore, India'
+                organisation:'IISc Banglore, India'
             },
             {
                 fullName:'Dr. Tushar Sharma',
@@ -462,7 +462,7 @@ export const committeeMembers = [
         name:'SpecialInterestGroupOnHumanitarianTechnology',
         data:[
             {
-                fullName:'Dr. Dharmnedra Kumar Jhariya',
+                fullName:'Dr. Dharmendra Kumar Jhariya',
                 organisation:'NIT Delhi, India'
             },
             {

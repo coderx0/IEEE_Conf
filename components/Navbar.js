@@ -56,7 +56,10 @@ const Navbar = () => {
     <Link href='/#callforpaper' scroll={false}>
     <li className={`${router.pathname == "/" ? " hover:border-orange-400 text-orange-400" : ""} hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}>Call For Papers</li>
     </Link>
-    <li className='hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2'> Download</li>
+    <a href='/MAC2023.pdf' download={true}>
+    <li className='hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2'>Download Flyer</li>
+    </a>
+    
   </ul>
   </div>
  
@@ -70,7 +73,7 @@ const Navbar = () => {
         </div>
         
         
-        <span className='block lg:hidden' onClick={()=>setIsOpenSidebar(prev=>!prev)}><GiHamburgerMenu className='w-6 h-6'/></span>
+        <span className='block lg:hidden' onClick={()=>setIsOpenSidebar(prev=>!prev)}><GiHamburgerMenu className='w-6 h-6 text-white'/></span>
         <AnimatePresence>
         {isOpenSidebar && <Sidebar setIsOpenSidebar={setIsOpenSidebar}/>}
         </AnimatePresence>

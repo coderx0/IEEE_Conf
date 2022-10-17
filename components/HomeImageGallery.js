@@ -23,22 +23,14 @@ export default function HomeImageGallery() {
         modules={[Autoplay]}
         className="mySwiper bg-stone-500 text-center w-full h-[60vh] md:h-full"
       >
-        <SwiperSlide className="w-[100vw]">
-<div className="w-full h-full overflow-hidden">
-<motion.img 
-initial={{scale:1}}
-animate={{scale:1.4}}
-transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/kumbh.jpg" className="w-full h-full opacity-70 object-cover"/>
-
-</div>        </SwiperSlide>
+       
         <SwiperSlide>
         <div className="w-full h-full overflow-hidden">
 <motion.img 
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/mnnit.png" className="w-full h-full brightness-75  object-cover"/>
+src="/mnnit.webp" className="w-full h-full brightness-75  object-cover"/>
 
 </div> 
        
@@ -49,7 +41,7 @@ src="/mnnit.png" className="w-full h-full brightness-75  object-cover"/>
 initial={{scale:1}}
 animate={{scale:1.4}}
 transition={{duration:20,repeat:Infinity,repeatType:'reverse',ease:'linear'}}
-src="/sangam2.png" className="scale w-full h-full brightness-75  object-cover"/>
+src="/sangam2.webp" className="scale w-full h-full brightness-75  object-cover"/>
 
 </div> 
        
