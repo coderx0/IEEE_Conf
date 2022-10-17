@@ -60,13 +60,13 @@ export const confChairs =[
    
     {
         title:'Prof.',
-        fullName:'K.P. Ray, ',
+        fullName:'K.P. Ray ',
         organisation:'DRDO, India',
         profileImage:'/kpRay.webp'
     },
     {
         title:'Dr.',
-        fullName:'Somak Bhattacharyya, ',
+        fullName:'Somak Bhattacharyya ',
         organisation:'IIT BHU Varanasi, India',
         profileImage:'/somak.webp'
     },
@@ -88,7 +88,7 @@ export const committeeMembers = [
                 organisation:'Georgia Institute of Technology, USA'
             },
             {
-                fullName:'Dr. S.K. Varshney, ',
+                fullName:'Dr. S.K. Varshney ',
                 organisation:'Adviser/Scientist G, DST, Government of India'
             },
             {

@@ -61,7 +61,7 @@ const HomeMain = () => {
     held in offline / hybrid mode at MNNIT ALLAHABAD in Sangam City - Prayagraj, U.P, India, during 
     March 24-26 , 2023.    
     The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
-    MAC2023 will include focused track in Young Professionals , Women in Engineering and SIGHT along with technical sessions on recent developments.
+    MAC2023 will include focused track on Young Professionals , Women in Engineering and SIGHT along with technical sessions on recent developments.
     </p>
  
       

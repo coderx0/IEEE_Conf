@@ -18,31 +18,50 @@ const Footer = () => {
     </div>
     <div className="mt-10 sm:mt-0 lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
       <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">
-      <Image src="/IEEE.webp" alt="Picture of the author" width={240} height={135} className='bg-stone-50 object-center object-cover text-center text-white p-2 ' />
+      <Image src="/logo1.png" alt="Picture of the author" width={240} height={135} className='bg-stone-50 object-center object-cover text-center text-white p-2 ' />
       </a>
-      <p className="mt-2 text-sm text-center m-auto text-gray-500">IEEE</p>
     </div>
     <div className="flex-grow flex flex-wrap  lg:mt-0 mt-10 lg:text-left text-center ">
-    <div className="flex flex-col items-center lg:w-1/2 sm:w-1/2 w-full  py-2 justify-start">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded">Useful Links</h2>
+    <div className="flex flex-col items-center w-72  py-2 justify-start">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded">Quick Links</h2>
         {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
         <nav className="list-none mb-10 mt-3 ">
+          
           <li>
-            <Link href="/Committee"><a className="text-gray-600 hover:text-rose-500 cursor-pointer">Committee</a></Link>
-          </li>
+          <a href='https://mtt.org/' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE MTT</a>
+          </li> 
           <li>
-            <Link href="/tracks"><a className="text-gray-600 hover:text-rose-500  cursor-pointer">Tracks</a></Link>
-          </li>
+          <a href='https://ieeeaps.org/' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE APS</a>
+          </li> 
           <li>
-            <Link href="/guideline"><a className="text-gray-600 hover:text-rose-500  cursor-pointer">Guideline</a></Link>
-          </li>
-          <li>
-            <Link href=""><a className="text-gray-600 hover:text-rose-500 s cursor-pointer">Registration</a></Link>
+          <a href='https://www.comsoc.org/' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE COMSOC</a>
           </li> 
         
         </nav>
       </div>
-      <div className="flex flex-col items-center justify-start lg:w-1/2 sm:w-1/2 w-full  py-2 lg:items-start">
+    <div className="flex flex-col items-center md:items-start w-72  py-2 justify-start">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded">Connect With IEEE</h2>
+        {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
+        <nav className="list-none mb-10 mt-3 ">
+          <li>
+            <a href='https://www.ieee.org/membership/join/index.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=join' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 cursor-pointer">Join</a>
+          </li>
+          <li>
+          <a href='https://www.ieee.org/membership/renew.html?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=renew' target='_blank' className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer">Renew</a>
+          </li>
+          <li>
+          <a href='https://www.ieee.org/membership/benefits/index.html' target='_blank' className="font-bold text-gray-700 hover:text-rose-500  cursor-pointer">Benefits</a>
+          </li>
+          <li>
+          <a href='https://ieee-collabratec.ieee.org/?utm_source=dhtml_footer&utm_medium=hp&utm_campaign=collabratec-membership-list' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE Collabratec</a>
+          </li> 
+          <li>
+          <a href='https://ieeexplore.ieee.org/Xplore/home.jsp' target='_blank' className="font-bold text-gray-700 hover:text-rose-500 s cursor-pointer">IEEE Xplore</a>
+          </li> 
+        
+        </nav>
+      </div>
+      <div className="flex flex-col items-center justify-start w-72  py-2 lg:items-start">
         <h2 className="text-left title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded ">Contact Information</h2>
         {/* <div className="h-1 w-20 bg-teal-600 rounded lg:visible invisible"></div> */}
         <nav className="list-none mb-10 mt-3">
@@ -54,16 +73,6 @@ const Footer = () => {
           
         </nav>
       </div>
-      {/* <div className="flex flex-col items-center justify-center lg:w-1/3 w-full px-4 py-2">
-        <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded">Anokhi Pehel Club</h2>
-        <nav className="list-none mb-10 mt-3">
-           <li className="text-gray-600 hover:text-gray-800">Near Academic Building</li>
-           <li className="text-gray-600 hover:text-gray-800">IEEE UP Section</li>
-            <li className="text-gray-600 hover:text-gray-800">MNNIT Allahabad</li>
-            <li className="text-gray-600 hover:text-gray-800">Prayagraj</li>
-            <li className="text-gray-600 hover:text-gray-800">Uttar Pradesh, India</li>
-        </nav>
-      </div> */}
     </div>
   </div>
   <div className="bg-gray-300">
