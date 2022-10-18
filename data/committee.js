@@ -608,7 +608,7 @@ export const committeeMembers = [
                 organisation:'MNNIT Allahabad, India'
             },
             {
-                fullName:'Mr. Indra Kumar Singh',
+                fullName:'Mr. Yajush Rai',
                 organisation:'MNNIT Allahabad, India'
             },
             {

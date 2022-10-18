@@ -26,16 +26,16 @@ const Navbar = () => {
 
         <div className='hidden lg:flex lg:gap-2 text-lg font-semibold'>
             <Link href='/'>
-            <span className={`${router.pathname == "/" ? "  text-orange-400 " : ""}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
+            <span className={`${router.pathname == "/" ? "  text-orange-400 " : "text-white"}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
                 About
             </span>
             </Link>
             <Link href='/Committee'>
-            <span className={`${router.pathname == "/Committee" ? " text-orange-400" : ""}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
+            <span className={`${router.pathname == "/Committee" ? " text-orange-400" : "text-white"}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
             Committee</span>
             </Link>
             <Link href='/tracks'>
-            <span className={`${router.pathname == "/tracks" ? " text-orange-400" : ""}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
+            <span className={`${router.pathname == "/tracks" ? " text-orange-400" : "text-white"}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
             Tracks</span>
             </Link>
             <span className={` text-orange-400 hover:border-orange-400 dropdown dropdown-hover dropdown-end cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 `}>
@@ -65,7 +65,7 @@ const Navbar = () => {
  
             </span>
             <Link href='/registration#registration' scroll={false}>
-            <span className={`${router.pathname == "/registration" ? " hover:border-orange-400 text-orange-400" : ""}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
+            <span className={`${router.pathname == "/registration" ? " hover:border-orange-400 text-orange-400" : "text-white"}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
             Registration
             </span>
             </Link>
