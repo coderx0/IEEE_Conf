@@ -624,6 +624,10 @@ export const committeeMembers = [
                 organisation:'MNNIT Allahabad, India'
             },
             {
+                fullName:'Mr. Indra Kumar Singh',
+                organisation:'MNNIT Allahabad, India'
+            },
+            {
                 fullName:'Mr. Yajush Rai',
                 organisation:'MNNIT Allahabad, India'
             },
@@ -634,6 +638,18 @@ export const committeeMembers = [
             {
                 fullName:'Ms. Diksha Maurya',
                 organisation:'IIT(ISM) Dhanbad, India'
+            },
+            {
+                fullName:'Mr. Sumeet Debnath',
+                organisation:'MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Mr. Uttam Singh',
+                organisation:'MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Mr. Ankit Kumar',
+                organisation:'MNNIT Allahabad, India'
             },
         ]
         
