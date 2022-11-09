@@ -64,6 +64,11 @@ const Navbar = () => {
   </div>
  
             </span>
+            <Link href='/Sponsor' scroll={false}>
+            <span className={`${router.pathname == "/Sponsor" ? " hover:border-orange-400 text-orange-400" : "text-white"}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
+            Sponsor
+            </span>
+            </Link>
             <Link href='/registration#registration' scroll={false}>
             <span className={`${router.pathname == "/registration" ? " hover:border-orange-400 text-orange-400" : "text-white"}  cursor-pointer w-32 px-4 text-center py-2 hover:font-bold border-b-2 border-black hover:border-b-2 hover:text-orange-400 hover:border-orange-400`}>
             Registration

@@ -94,6 +94,10 @@ const Sidebar = ({setIsOpenSidebar}) => {
 
         </motion.div>
         <motion.div variants={item}
+        onClick={()=>navigate('/Sponsor')} 
+        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
+        Sponsor</motion.div>
+        <motion.div variants={item}
         onClick={()=>navigate('/registration/#registration')} 
         className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Registration</motion.div>
