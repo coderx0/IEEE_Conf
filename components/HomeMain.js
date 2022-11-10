@@ -9,6 +9,8 @@ import {useRouter} from 'next/router';
 import Map from './Map';
 import TechCollabGallery from './TechCollabGallery';
 import Sponsors from './Sponsors';
+import Link from 'next/link';
+
 
 const HomeMain = () => {
 
@@ -29,14 +31,18 @@ const HomeMain = () => {
           <div className='w-full my-12 pl-6 sm:pl-0 flex justify-center gap-4 lg:justify-start lg:gap-10 font-semibold  md:p-2'>
         
           <p className='flex items-center gap-3'>
-          <span className='bg-purple-200 rounded-full p-[13px]'>
+        <Link href='/registration'>
+        <span className='bg-purple-200 rounded-full p-[13px] cursor-pointer'>
           <BsFillCalendarCheckFill className='w-3 h-3 md:w-5 md:h-5 text-lime-600'/>
           </span>
+        </Link>
          <span className='text-sm lg:text-lg text-white'> March 24-26 , 2023</span></p>
          <p className='flex items-center justify-end gap-2'>
-          <span className='bg-purple-200 rounded-full p-2'>
+         <Link href='/#venue'>
+         <span className='bg-purple-200 rounded-full p-2 cursor-pointer'>
           <MdLocationOn className='w-5 h-5 md:w-8 md:h-8 text-blue-500'/>
           </span>
+         </Link>
          <span className='text-sm lg:text-lg text-white'> MNNIT ALLAHABAD</span></p>
           </div>
         </div>
@@ -53,11 +59,11 @@ const HomeMain = () => {
         <span>Organised at</span>
         <p><span className='text-orange-500 font-bold text-xl'>
         MNNIT ALLAHABAD, India 
-        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Université de Sherbrooke Canada<span className='text-black'> and</span> Benedict College , Columbia, USA</span></p>
+        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Université de Sherbrooke Canada<span className='text-black'> and</span> Benedict College, Columbia, USA</span></p>
       </h2>
       <br/>
-      <p className="md:mb-8 leading-relaxed font-semibold text-lg">
-    The 1st IEEE International Conference on Microwave, Antenna and Communication -MAC 2023 will be
+      <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
+    The 1st IEEE International Conference on Microwave, Antenna and Communication -MAC2023 will be
     held in offline / hybrid mode at MNNIT ALLAHABAD in Sangam City - Prayagraj, U.P, India, during 
     March 24-26 , 2023.    
     The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
@@ -98,7 +104,7 @@ const HomeMain = () => {
         <ul className='pl-6 font-semibold pt-4 text-left text-lg'>
             <li className='list-disc'>Paper Presentations and best paper awards</li>
             <li className='list-disc'>Key Note Lectures</li>
-            <li className='list-disc'>Special Sesisons</li>
+            <li className='list-disc'>Special Sessisons</li>
             <li className='list-disc'>Panel Discussions</li>
             <li className='list-disc'>Technical/Industrial Workshop</li>
         </ul>

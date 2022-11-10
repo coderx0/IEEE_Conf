@@ -8,7 +8,7 @@ import { BsTwitter,BsInstagram } from 'react-icons/bs';
 const Footer = () => {
   return (
     <>
-    <footer className=" bg-stone-50 body-font border-t-2 border-stone-600">
+    <footer className="relative bg-stone-50 body-font border-t-2 border-stone-600">
   <div className=" px-5 py-12 mx-auto flex sm:items-start sm:flex-row  flex-wrap flex-col">
     <div className="lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
       <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">
@@ -75,29 +75,24 @@ const Footer = () => {
       </div>
     </div>
   </div>
-  <div className="bg-gray-300">
-    <div className="container mx-auto py-4 px-5 flex flex-row">
-      <p className="text-gray-500 text-sm text-left font-bold">© 2022 —
-        <a href="" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@MNNIT ALLAHABAD</a>
-      </p>
-      <span className="inline-flex ml-auto mt-0 justify-center sm:justify-start">
-        <Link href=''><a className="text-teal-600">
-        <FaFacebookF className='text-lg md:text-xl'/>
-        </a></Link>
-        <a className="ml-3 text-teal-600">
-        <BsTwitter className='text-lg md:text-xl'/>
-        </a>
-        <Link href=''>
-        <a className="ml-3 text-teal-600">
-        <BsInstagram className='text-lg md:text-xl'/>
-        </a>
-        </Link>
-        <Link href=''><a className="ml-3 text-teal-600">
-        <FaLinkedinIn className='text-lg md:text-xl'/>
-        </a></Link>
-      </span>
-    </div>
-  </div>
+ <div className='absolute bottom-0 left-0 lg:left-[95%] right-0 lg:top-0 lg:right-0 bg-cyan-200 lg:h-full lg:w-18 p-2 flex justify-center  lg:items-center'>
+ <span className="flex lg:flex-col gap-4">
+
+<a href='https://www.facebook.com/profile.php?id=100086933167947' target='_blank' rel="noreferrer" className='w-full p-4 bg-blue-600 text-white hover:bg-white hover:text-blue-600 transition duration-700 ease-in-out rounded-full cursor-pointer'>
+ <FaFacebookF className='text-md lg:text-3xl '/>
+</a> 
+ 
+ <a href='https://www.instagram.com/ieeemac_mnnita/ ' target='_blank' rel="noreferrer" className='w-full p-4 bg-blue-600 text-white hover:bg-white hover:text-blue-600 transition duration-700 ease-in-out rounded-full cursor-pointer'>
+ <BsInstagram className='text-md lg:text-3xl '/>
+</a> 
+
+<a href='https://www.linkedin.com/in/ieee-mac-587b83255/' target='_blank' rel="noreferrer" className='w-full p-4 bg-blue-600 text-white hover:bg-white hover:text-blue-600 transition duration-700 ease-in-out rounded-full cursor-pointer'>
+<FaLinkedinIn className='text-md lg:text-3xl '/>
+</a> 
+ 
+
+</span>
+ </div>
 </footer>
     </>
   )
