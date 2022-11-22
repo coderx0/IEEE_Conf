@@ -184,6 +184,14 @@ export const committeeMembers = [
                 organisation:'Synergy Microwave, NJ, USA'
             },
             {
+                fullName:'Dr. D.C Pande',
+                organisation:'LRDE, DRDO , India'
+            },
+            {
+                fullName:'Dr. Kumar Krishan',
+                organisation:'Unversity of Houston, USA'
+            },
+            {
                 fullName:'Dr. Leon T. Geter',
                 organisation:'Benedict College, Columbia, USA'
             },
@@ -346,6 +354,14 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Rabie A. Ramadan',
                 organisation:'University of Hail, KSA'
+            },
+            {
+                fullName:'Dr. Nasar Ojaroudi Parchin',
+                organisation:'Edinburgh Napier University, U.K'
+            },
+            {
+                fullName:'Dr. Gaurav Mittal',
+                organisation:'DEAL, DRDO, India'
             },
             {
                 fullName:'Dr. Dhananjay Singh',

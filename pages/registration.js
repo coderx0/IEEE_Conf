@@ -16,7 +16,7 @@ const Registration = () => {
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span className='text-red-500 font-bold'>Paper Submission Deadline</span>
-    <span className='text-red-500 font-bold right'>November 22, 2022</span>
+    <span className='text-red-500 font-bold right'>December 22, 2022</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span>Acceptance Notification</span>
@@ -52,22 +52,22 @@ const Registration = () => {
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Student (IEEE)</td>
         <td className='py-2'>INR 3900/-</td>
-        <td className='py-2'>USD 150</td>
+        <td className='py-2'>USD 140</td>
     </tr>
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Student (Non-IEEE)</td>
         <td className='py-2'>INR 4900/-</td>
-        <td className='py-2'>USD 250</td>
+        <td className='py-2'>USD 190</td>
     </tr>
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Faculty</td>
         <td className='py-2'>INR 7900/-</td>
-        <td className='py-2'>USD 350</td>
+        <td className='py-2'>USD 200</td>
     </tr>
     <tr className='border-b-4 border-stone-600'>
         <td className='py-2'>Industry</td>
         <td className='py-2'>INR 10900/-</td>
-        <td className='py-2'>USD 450</td>
+        <td className='py-2'>USD 250</td>
     </tr>
     <tr>
         <td rowSpan={5} className='font-semibold'>Regular</td>
@@ -75,26 +75,26 @@ const Registration = () => {
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Student (IEEE)</td>
         <td className='py-2'>INR 4900/-</td>
-        <td className='py-2'>USD 190</td>
+        <td className='py-2'>USD 160</td>
     </tr>
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Student (Non-IEEE)</td>
         <td className='py-2'>INR 5900/-</td>
-        <td className='py-2'>USD 290</td>
+        <td className='py-2'>USD 210</td>
     </tr>
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Faculty</td>
         <td className='py-2'>INR 9900/-</td>
-        <td className='py-2'>USD 390</td>
+        <td className='py-2'>USD 220</td>
     </tr>
     <tr className='border-b-4 border-stone-600'>
         <td className='py-2'>Industry</td>
         <td className='py-2'>INR 12900/-</td>
-        <td className='py-2'>USD 490</td>
+        <td className='py-2'>USD 290</td>
     </tr>
     <tr>
     <td colSpan={4} className='pt-8 pb-4'>
-        <span className='text-blue-500 font-bold '>* 10% Additional Rebate for Early Bird Registrations ( Before 31 January, 2023, 11 PM-IST ) on all types/ categories of registrations.</span>
+        <span className='text-blue-500 font-bold '>* 10% Additional Rebate for Early Bird Registrations ( Before 31 January, 2023, 11 PM-IST ) on all types/ categories of registrations ( GST excluded ).</span>
     </td>
     </tr>
 </tbody>
