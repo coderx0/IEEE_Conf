@@ -8,7 +8,6 @@ import research from "../lottieFiles/research.json"
 import {useRouter} from 'next/router';
 import Map from './Map';
 import TechCollabGallery from './TechCollabGallery';
-import Sponsors from './Sponsors';
 import Link from 'next/link';
 
 
@@ -26,7 +25,7 @@ const HomeMain = () => {
         <HomeImageGallery/>
         <div className='absolute top-10 md:top-[20%] lg:top-[10%] xl:top-[20%] left-0 z-10 w-full md:w-[50%] lg:w-[50%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
-                <span className='text-orange-400'>1st</span> <span className='text-white'>IEEE-International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication</span>
+                <span className='text-orange-400'></span> <span className='text-white'>International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication</span>
             </div>
           <div className='w-full my-12 pl-6 sm:pl-0 flex justify-center gap-4 lg:justify-start lg:gap-10 font-semibold  md:p-2'>
         
@@ -63,7 +62,7 @@ const HomeMain = () => {
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
-    The 1st IEEE International Conference on Microwave, Antenna and Communication -MAC2023 will be
+    The International Conference on Microwave, Antenna and Communication - MAC2023 will be
     held in offline / hybrid mode at MNNIT ALLAHABAD in Sangam City - Prayagraj, U.P, India, during 
     March 24-26 , 2023.    
     The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
@@ -124,13 +123,6 @@ const HomeMain = () => {
      <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Collaborators
       </h1>
     <TechCollabGallery/>
-   <div className='bg-white my-4 rounded-lg'>
-   <h1 className="relative w-full text-center text-xl sm:text-2xl md:text-3xl font-bold py-2 lg:py-4 mb-2 border-b-4 border-cyan-400">Technical Sponsors
-      </h1>
-    <div className='px-6'>
-    <Sponsors/>
-    </div>
-   </div>
   </div>
 </section>
 

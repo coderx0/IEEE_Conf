@@ -32,7 +32,7 @@ const Registration = () => {
 </div>
 <h1 className='text-center text-3xl font-bold mt-12' >
     <span className='border-b-4 border-blue-500 px-4 pb-4'>
-    Registration Fee
+    Registration Fee *
     </span>
 </h1>
 <div className='flex justify-center mt-2'>
@@ -94,7 +94,8 @@ const Registration = () => {
     </tr>
     <tr>
     <td colSpan={4} className='pt-8 pb-4'>
-        <span className='text-blue-500 font-bold '>* 10% Additional Rebate for Early Bird Registrations ( Before 31 January, 2023, 11 PM-IST ) on all types/ categories of registrations ( GST excluded ).</span>
+    <div className='text-blue-500 font-bold '>* <span className='pl-2'>GST excluded</span> </div>
+        <div className='text-blue-500 font-bold '>** 10% Additional Rebate for Early Bird Registrations ( Before 31 January, 2023, 11 PM-IST ) on all types/ categories of registrations.</div>
     </td>
     </tr>
 </tbody>
