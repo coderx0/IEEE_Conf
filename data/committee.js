@@ -18,7 +18,7 @@ export const honChairs =[
         title:'Prof.',
         fullName:'Sébastien Roy',
         organisation:'Université de Sherbrooke, Canada',
-        profileImage:'roySeb.webp'
+        profileImage:'seb.webp'
     },
     {
         title:'Prof.',
