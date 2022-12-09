@@ -16,11 +16,7 @@ const Footer = () => {
       </a>
       <p className="mt-2 text-sm text-center m-auto text-gray-500">MNNIT Allahabad</p>
     </div>
-    <div className="mt-10 sm:mt-0 lg:w-1/5 sm:w-1/2 w-full flex-shrink-0 justify-center mx-auto text-center ">
-      <a className="flex title-font font-medium items-center text-center justify-center text-gray-900">
-      <Image src="/logo1.png" alt="Picture of the author" width={240} height={135} className='bg-stone-50 object-center object-cover text-center text-white p-2 ' />
-      </a>
-    </div>
+   
     <div className="flex-grow flex flex-wrap  lg:mt-0 mt-10 lg:text-left text-center ">
     <div className="flex flex-col items-center w-72  py-2 justify-start">
         <h2 className="title-font font-medium text-gray-900 tracking-widest text-xl mb-2 border-b-4 border-blue-500 pb-1 md:pb-2 rounded">Quick Links</h2>
