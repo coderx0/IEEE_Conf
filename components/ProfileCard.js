@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProfileCard = ({title,fullName,post,organisation,profileImage}) => {
   return (
-    <div className="card w-72 md:w-[310px] glass">
+    <div className="card w-72 md:w-[285px] glass">
   <figure className=''>
   <img src={profileImage} alt="car!" className='h-56 mx-16 mt-4 w-full object-cover object-top'/>
   </figure>
