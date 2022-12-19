@@ -75,6 +75,13 @@ const CommitteeSidebar = ({width,isOpen,setIsOpen}) => {
               setIsOpen(false);
             }
           }} className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '>Finance Chair</li>
+          
+          <li onClick={()=>{
+            router.push('/Committee/publicationChair');
+            if(width<768){
+              setIsOpen(false);
+            }
+          }} className='p-1 pl-2 cursor-pointer rounded-md hover:bg-purple-200 '>Publication Chair</li>
           <li onClick={()=>{
             router.push('/Committee/technicalProgramCommittee');
             if(width<768){

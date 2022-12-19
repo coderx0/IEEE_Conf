@@ -16,7 +16,7 @@ const Registration = () => {
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span className='text-red-500 font-bold'>Paper Submission Deadline</span>
-    <span className='text-red-500 font-bold right'>December 22, 2022</span>
+    <span className='text-red-500 font-bold right'>January 15, 2022</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
     <span>Acceptance Notification</span>

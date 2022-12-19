@@ -9,7 +9,7 @@ import {useRouter} from 'next/router';
 import Map from './Map';
 import TechCollabGallery from './TechCollabGallery';
 import Link from 'next/link';
-
+import Sponsors from "../components/Sponsors";
 
 const HomeMain = () => {
 
@@ -52,13 +52,18 @@ const HomeMain = () => {
   <div className=" container mx-auto flex md:px-5 py-2 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 px-6 lg:pr-24 md:pr-16 relative flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
       
-      <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600">MAC2023
+      <h1 className="relative title-font text-4xl md:text-6xl mb-4 font-bold border-b-4 pb-4 px-8 md:px-0 md:pr-24 border-cyan-600"><span className='text-orange-400'>MAC</span>2023
       </h1>
       <h2 className='text-lg'>
-        <span>Organised at</span>
+        <span>Jointly Organised By</span>
         <p><span className='text-orange-500 font-bold text-xl'>
-        MNNIT ALLAHABAD, India 
-        </span> in Technical Collaboration with <span className='text-red-600 font-bold text-xl'>Université de Sherbrooke Canada<span className='text-black'> and</span> Benedict College, Columbia, USA</span></p>
+        MNNIT ALLAHABAD, India, <span className='text-red-500 font-bold text-xl'>
+          Université de Sherbrooke, Canada  
+        </span>
+          <span className='text-black'> and </span> 
+          <span className='text-red-500'>
+           Benedict College, Columbia, USA
+          </span> </span></p>
       </h2>
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
@@ -120,9 +125,17 @@ const HomeMain = () => {
 
 <section className="p-6">
   <div className=" container mx-auto flex md:px-5 py-2 flex-col">
-     <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Collaborators
+     <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Organising Partners
       </h1>
     <TechCollabGallery/>
+  </div>
+</section>
+
+<section className="p-6">
+  <div className=" container mx-auto flex md:px-5 py-2 flex-col">
+     <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Co Sponsors
+      </h1>
+    <Sponsors/>
   </div>
 </section>
 

@@ -29,7 +29,7 @@ export const honChairs =[
     
     {
         title:'Prof.',
-        fullName:'R.K. Nagaria',
+        fullName:'Rajendra Kumar Nagaria',
         organisation:'MNNIT Allahabad, India',
         profileImage:'/rk.webp'
     }
@@ -50,7 +50,7 @@ export const genChairs =[
     },
     {
         title:'Prof.',
-        fullName:'V.S. Tripathi ',
+        fullName:'Vijay Sanker Tripathi ',
         organisation:'MNNIT Allahabad, India',
         profileImage:'/vsTripathi.webp'
     }
@@ -123,6 +123,14 @@ export const committeeMembers = [
             {
                 fullName:'Prof. Shiban K. Koul',
                 organisation:'IIT Delhi, India'
+            },
+            {
+                fullName:'Prof. M. Jaleel Akhtar',
+                organisation:'IIT Kanpur, India'
+            },
+            {
+                fullName:'Prof. Kumar Vaibhav Srivastava',
+                organisation:'IIT Kanpur, India'
             },
             {
                 fullName:'Mr. Puneet Kumar Mishra',
@@ -328,6 +336,12 @@ export const committeeMembers = [
                 fullName:'Dr. Anand Sharma',
                 organisation:'MNNIT Allahabad, India'
             },
+        ]
+    },
+    {
+        title:'Publication Chair',
+        name:'publicationChair',
+        data:[
             {
                 fullName:'Dr. Gaurav Upadhyay',
                 organisation:'IT Gopeshwar, India'
@@ -371,10 +385,7 @@ export const committeeMembers = [
                 fullName:'Dr. Mohseen Koohestani',
                 organisation:'ESEO, Angers, France'
             },
-            {
-                fullName:'Prof. M. Jaleel Akhtar',
-                organisation:'IIT Kanpur, India'
-            },
+         
             {
                 fullName:'Dr. Karun Rawat',
                 organisation:'IIT Roorkee, India'
