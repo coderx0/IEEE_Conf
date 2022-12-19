@@ -15,7 +15,7 @@ const Sponsor = () => {
     <div className='p-2 pt-8 lg:text-lg lg:px-16'>
     <p className='text-justify'>
     Finance and Organizing Committee MAC 2023 requests support for the upcoming 1st International
-Conference on Microwave, Antenna and Communication (IEEE MAC 2023) that is scheduled
+Conference on Microwave, Antenna and Communication (MAC 2023) that is scheduled
 during March 24-26, 2023 at the Department of Electronics & Communication Engineering, Motilal
 Nehru National Institute of Technology Allahabad, Prayagraj, U.P, India. Support from our commercial
 sponsors will instrumental in maintaining the quality of the conference, and we would greatly appreciate
@@ -29,7 +29,7 @@ share information and knowledge about microwave, antenna and emerging trends in 
 system, but also a pivotal help to build an effective platform for communication and cooperation among
 the academic researcher in world wide. The preliminary information on the 1st International
 Conference on Microwave, Antenna and Communication (MAC 2023) are available on the website
-<a href='http://www.ieeemac.org' target='_blank' rel="noreferrer" className='text-blue-800 font-semibold'> (http://www.ieeemac.org)</a>. 
+<a href='https://www.mac2023.org' target='_blank' rel="noreferrer" className='text-blue-800 font-semibold'> (https://www.mac2023.org)</a>. 
         </p>
         <br/>
         <p className='text-justify'>
