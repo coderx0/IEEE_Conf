@@ -50,7 +50,7 @@ export const genChairs =[
     },
     {
         title:'Prof.',
-        fullName:'Vijay Sanker Tripathi ',
+        fullName:'Vijay Shanker Tripathi ',
         organisation:'MNNIT Allahabad, India',
         profileImage:'/vsTripathi.webp'
     }
