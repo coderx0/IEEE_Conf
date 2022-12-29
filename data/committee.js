@@ -431,7 +431,7 @@ export const committeeMembers = [
                 organisation:'Amrita Vishwa Vidyapeetham,Chennai'
             },
             {
-                fullName:'Dr. Rajan Mishra',
+                fullName:'Dr. Rajan Mishra (Chair)',
                 organisation:' MMMUT Gorakhpur, India'
             },
             {

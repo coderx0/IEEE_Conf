@@ -42,8 +42,8 @@ animate='show'
         {
           memberdata.map(member=>
         <motion.div variants={item} key={member.fullName}
-        className="text-sm md:text-lg w-full p-1 text-black font-semibold border-b-[1px] border-stone-700 flex gap-3 justify-between md:justify-center">
-        <span className='w-[55vw] md:text-[16px] lg:text-lg lg:p-2'>{member.fullName}</span>
+        className={`text-sm md:text-lg w-full p-1 text-black font-semibold border-b-[1px] border-stone-700 flex gap-3 justify-between md:justify-center`}>
+        <span className={`w-[55vw] md:text-[16px] lg:text-lg lg:p-2 ${member.fullName==='Dr. Rajan Mishra (Chair)'?'font-extrabold':''}`}>{member.fullName}</span>
         <span className='w-[35vw] md:text-[16px] lg:text-lg lg:p-2  italic text-left font-normal'> {member.organisation}</span>
         </motion.div>)
         }
