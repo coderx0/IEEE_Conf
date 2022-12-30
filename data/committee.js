@@ -638,18 +638,12 @@ export const committeeMembers = [
                 fullName:'Mr. Saurabh Raj',
                 organisation:'MNNIT Allahabad, India'
             },
-            {
-                fullName:'Mr. Tilakdhari Singh',
-                organisation:'MNNIT Allahabad, India'
-            },
+          
             {
                 fullName:'Mr. Pawan Kumar Shukla,',
                 organisation:'MNNIT Allahabad, India'
             },
-            {
-                fullName:'Mr. Aditya Pal',
-                organisation:'MNNIT Allahabad, India'
-            },
+            
             {
                 fullName:'Mr. Indra Kumar Singh',
                 organisation:'MNNIT Allahabad, India'
@@ -688,7 +682,15 @@ export const committeeMembers = [
             {
                 fullName:'Mr. Piyush Kumar Mishra',
                 organisation:'MNNIT Allahabad, India'
-            }
+            },
+            {
+                fullName:'Mr. Tilakdhari Singh',
+                organisation:'MNNIT Allahabad, India'
+            },
+            {
+                fullName:'Mr. Aditya Pal',
+                organisation:'MNNIT Allahabad, India'
+            },
         ]
     }
 ]
