@@ -91,10 +91,7 @@ export const committeeMembers = [
                 fullName:'Dr. S.K. Varshney ',
                 organisation:'Adviser/Scientist G, DST, Government of India'
             },
-            {
-                fullName:'Dr. Ramesh K. Gupta',
-                organisation:'VP, Satellite Network Engineering and Operations, USA'
-            },
+           
             {
                 fullName:'Dr. C.J. Reddy',
                 organisation:'Business Development at Altair Engineering, Inc. USA'
@@ -182,6 +179,10 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Goutam Chattopadhyay',
                 organisation:'JPL , NASA, USA'
+            },
+            {
+                fullName:'Dr. Ramesh K. Gupta',
+                organisation:'VP, Satellite Network Engineering and Operations, USA'
             },
             {
                 fullName:'Dr. Sudhakar Rao',
