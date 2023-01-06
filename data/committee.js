@@ -167,9 +167,18 @@ export const committeeMembers = [
                 organisation:'Women Engineering College Ajmer, India'
             },
             {
+                fullName:'Ms. Shipra Bhatia',
+                organisation:'CSIR-CEERI, Pilani, India'
+            },
+            {
+                fullName:'Mr. Atmakuru Nagaraju',
+                organisation:'CSIR-CEERI, Pilani, India'
+            },
+            {
                 fullName:'Dr. Nagendra Prasad Yadav',
                 organisation:'Hubei Polytechnic University, China'
             },
+           
         ]
     },
     {
