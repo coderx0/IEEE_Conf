@@ -167,10 +167,6 @@ export const committeeMembers = [
                 organisation:'Women Engineering College Ajmer, India'
             },
             {
-                fullName:'Ms. Shipra Bhatia',
-                organisation:'CSIR-CEERI, Pilani, India'
-            },
-            {
                 fullName:'Mr. Atmakuru Nagaraju',
                 organisation:'CSIR-CEERI, Pilani, India'
             },
@@ -507,6 +503,10 @@ export const committeeMembers = [
             {
                 fullName:'Dr. Richa Agrawal',
                 organisation:'NIT Patna, India'
+            },
+            {
+                fullName:'Ms. Shipra Bhatia',
+                organisation:'CSIR-CEERI, Pilani, India'
             },
         ]
     },
