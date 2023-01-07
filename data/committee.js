@@ -315,6 +315,10 @@ export const committeeMembers = [
                 organisation:' IIT Patna, India'
             },
             {
+                fullName:'Dr. Lalit Kumar',
+                organisation:'CSIR-CEERI, Pilani, India'
+            },
+            {
                 fullName:'Mr. Spandan Manna',
                 organisation:'RWTH Aachen University, Germany'
             },
