@@ -319,6 +319,10 @@ export const committeeMembers = [
                 organisation:'CSIR-CEERI, Pilani, India'
             },
             {
+                fullName:'Mr. Raj Kumar Malaviya',
+                organisation:'ATMS, India'
+            },
+            {
                 fullName:'Mr. Spandan Manna',
                 organisation:'RWTH Aachen University, Germany'
             },
