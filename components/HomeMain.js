@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import HomeImageGallery from './HomeImageGallery'
 import { MdLocationOn } from "react-icons/md";
 import {BsFillCalendarCheckFill} from "react-icons/bs";
@@ -10,6 +10,8 @@ import Map from './Map';
 import TechCollabGallery from './TechCollabGallery';
 import Link from 'next/link';
 import Sponsors from "../components/Sponsors";
+import Swal from 'sweetalert2';
+import {IoMdNotifications} from "react-icons/io"
 
 const HomeMain = () => {
 
@@ -19,23 +21,36 @@ const HomeMain = () => {
     router.push(dest);
   };
 
+  useEffect(()=>{
+    Swal.fire({
+      icon: 'warning',
+      title: 'Important Notice',
+      html: 'The first phase of acceptance notification has been send to those authors who have submitted their papers on or before 22 Nov, 2022. The acceptance notification for the remaining papers will be notified soon.',
+    })
+  },[])
+
   return (
  <>
        <div className='h-[60vh] md:h-[95vh] mt-[55px] relative'>
         <HomeImageGallery/>
-        <div className='absolute top-10 md:top-[20%] lg:top-[10%] xl:top-[20%] left-0 z-10 w-full md:w-[50%] lg:w-[50%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
+        <div className='absolute top-10 md:top-[20%] lg:top-[10%] xl:top-[20%] left-0 z-10 w-full md:w-[65%] lg:w-[60%] backdrop-blur-md md:border-2 md:pt-8 md:mx-4 rounded-2xl md:px-10'>
             <div className='font-bold text-2xl md:text-4xl lg:text-5xl xl:text-6xl text-center md:text-left pt-4'>
                 <span className='text-orange-400'></span> <span className='text-white'>International Conference on</span> <span className='text-orange-400'>Microwave</span> <span className='text-white'>, Antenna and</span> <span className='text-green-500'>Communication</span>
             </div>
-          <div className='w-full my-12 pl-6 sm:pl-0 flex justify-center gap-4 lg:justify-start lg:gap-10 font-semibold  md:p-2'>
-        
-          <p className='flex items-center gap-3'>
+          <div className='w-full my-12 sm:pl-0 flex flex-col justify-center gap-4 lg:justify-start lg:gap-10 font-semibold'>
+            <div className='flex w-full max-w-[600px] justify-around md:justify-between'>
+                  
+         <div>
+         <p className='flex items-center gap-3'>
         <Link href='/registration'>
         <span className='bg-purple-200 rounded-full p-[13px] cursor-pointer'>
           <BsFillCalendarCheckFill className='w-3 h-3 md:w-5 md:h-5 text-lime-600'/>
           </span>
         </Link>
          <span className='text-sm lg:text-lg text-white'> March 24-26 , 2023</span></p>
+         </div>
+
+         <div>
          <p className='flex items-center justify-end gap-2'>
          <Link href='/#venue'>
          <span className='bg-purple-200 rounded-full p-2 cursor-pointer'>
@@ -43,6 +58,23 @@ const HomeMain = () => {
           </span>
          </Link>
          <span className='text-sm lg:text-lg text-white'> MNNIT ALLAHABAD</span></p>
+         </div>
+
+              </div>   
+            <div className='w-full lg:px-32'>
+            <button 
+            onClick={()=>{
+              Swal.fire({
+                icon: 'warning',
+                title: 'Important Notice',
+                html: 'The first phase of acceptance notification has been send to those authors who have submitted their papers on or before 22 Nov, 2022. The acceptance notification for the remaining papers will be notified soon.',
+              })
+            }}
+            className='w-full px-8 mt-4 font-bold btn btn-error animate-pulse border-2 border-stone-100 flex items-center gap-3 text-xl'>
+              <span className='text-3xl'><IoMdNotifications/></span>
+              <span>Notice</span>
+            </button>
+            </div>
           </div>
         </div>
     </div>
