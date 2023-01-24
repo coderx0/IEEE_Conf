@@ -21,13 +21,13 @@ const HomeMain = () => {
     router.push(dest);
   };
 
-  // useEffect(()=>{
-  //   Swal.fire({
-  //     icon: 'warning',
-  //     title: 'Important Notice',
-  //     html: 'The first phase of acceptance notification has been send to those authors who have submitted their papers on or before 22 Nov, 2022. The acceptance notification for the remaining papers will be notified soon.',
-  //   })
-  // },[])
+  useEffect(()=>{
+    Swal.fire({
+      icon: 'warning',
+      title: 'Important Notice',
+      html: 'The first phase of acceptance notification has been send to those authors who have submitted their papers on or before 22 Nov, 2022. The acceptance notification for the remaining papers will be notified soon.',
+    })
+  },[])
 
   return (
  <>
