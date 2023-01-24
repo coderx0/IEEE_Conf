@@ -1993,6 +1993,11 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
+"sweetalert2@^11.7.0":
+  "integrity" "sha512-ICeeGhIsmzCwRD/XjZrBYk+SDQzwfGvIdxkeSpPFgkPwbnoaGnaZ4cOb7AD/iC5o50snQUF6w23MfFAGk1+J7A=="
+  "resolved" "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.7.0.tgz"
+  "version" "11.7.0"
+
 "swiper@^8.4.2":
   "integrity" "sha512-nMD/RHVYxJxrLqjWQX2n0B94ANwpnuUv/3PUDT8Aaf+mSteFvZGFng4ypAYq70zW4svryyV+8TRlbRZ+6cgv9A=="
   "resolved" "https://registry.npmjs.org/swiper/-/swiper-8.4.2.tgz"
