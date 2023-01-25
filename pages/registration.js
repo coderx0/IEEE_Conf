@@ -94,7 +94,7 @@ const Registration = () => {
     </tr>
     <tr >
         <td className='py-2'>Industry</td>
-        <td className='py-2'>INR 11610 + 18% = 13700</td>
+        <td className='py-2'>INR 11610 + 18% = 13700/-</td>
         <td className='py-2'>USD 261 + 18% = 308</td>
     </tr>
     
@@ -161,7 +161,7 @@ const Registration = () => {
     </tr>
     <tr >
         <td className='py-2'>Industry</td>
-        <td className='py-2'>INR 12900 + 18% = 15222</td>
+        <td className='py-2'>INR 12900 + 18% = 15222/-</td>
         <td className='py-2'>USD 290 + 18% = 343</td>
     </tr>
 </tbody>
@@ -191,7 +191,7 @@ const Registration = () => {
 </div>
 <div className='w-full flex justify-between  py-2'>
     <span>Bank</span>
-    <span className='text-right'>SBI</span>
+    <span className='text-right'>State Bank of India</span>
 </div>
 <div className='w-full flex justify-between  py-2'>
     <span>Branch</span>
