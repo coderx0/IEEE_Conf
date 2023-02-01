@@ -31,14 +31,14 @@ const Registration = () => {
 </div>
 <div id='registration' className='h-12 w-full'>
 </div>
-<h1 className='text-center text-3xl font-bold mt-12' >
+<h1 className='text-center text-lg sm:text-xl md:text-3xl font-bold mt-12' >
     <span className='border-b-4 border-blue-500 px-4 pb-4'>
-    Registration Fee *
+    Registration Fee (including 18% GST)
     </span>
 </h1>
 <div className='text-center'>
 <div className='mt-16 px-4 md:px-0'>
-    <p className='text-[15px] font-semibold md:text-[22px] lg:text-xl'>For Early Bird Registrations with 10% Additional Rebate for Early Bird Registrations <span className='text-red-500 font-bold'>( Before 31 January, 2023, 11 PM-IST)</span></p>
+    <p className='text-[15px] font-semibold md:text-[22px] lg:text-xl'>For Early Bird Registrations with 10% Additional Rebate <span className='text-red-500 font-bold'>( Before 31 January, 2023, 11 PM-IST)</span></p>
 </div>
 <div className='flex justify-center mt-4 '>
 <div className=' p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll '>
@@ -210,7 +210,7 @@ const Registration = () => {
 </div>
 
 <div className='text-center mt-12 '>
-    <Link href="https://forms.gle/jU2nEDYMEwan7JKy5" ><span className=' rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success'>Resgistration Form</span></Link>
+    <Link href="https://forms.gle/jU2nEDYMEwan7JKy5" ><span className=' rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success'>Registration Form</span></Link>
 </div>
 
 <div className='h-12 w-full'>
