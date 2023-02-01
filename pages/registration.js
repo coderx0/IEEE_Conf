@@ -85,7 +85,7 @@ const Registration = () => {
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Student (Non-IEEE)</td>
         <td className='py-2'>INR 5310 + 18% = 6266/-</td>
-        <td className='py-2'>USD 144 + 18% = 170</td>
+        <td className='py-2'>USD 189 + 18% = 223</td>
     </tr>
     <tr className='border-b-2 border-stone-400'>
         <td className='py-2'>Faculty</td>
@@ -105,7 +105,7 @@ const Registration = () => {
 </div>
 <div className='text-center'>
 <div className='mt-24 px-4 md:px-0'>
-    <p className='text-[15px] font-semibold md:text-[22px] lg:text-xl'>For Registrations <span className='text-red-500 font-bold'>( After 31 January, 2023, 11 PM-IST)</span></p>
+    <p className='text-[15px] font-semibold md:text-[22px] lg:text-xl'>For Regular Registrations <span className='text-red-500 font-bold'>( After 31 January, 2023, 11 PM-IST)</span></p>
 </div>
 <div className='flex justify-center mt-4 '>
 <div className=' p-1 md:p-4 border-2 border-stone-400 overflow-x-scroll'>
