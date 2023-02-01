@@ -100,7 +100,7 @@ const HomeMain = () => {
       <br/>
       <p className="md:mb-8 leading-relaxed font-semibold text-lg text-justify">
     The International Conference on Microwave, Antenna and Communication - MAC2023 will be
-    held in offline / hybrid mode at MNNIT ALLAHABAD in Sangam City - Prayagraj, U.P, India, during 
+    held in offline mode at MNNIT ALLAHABAD in Sangam City - Prayagraj, U.P, India, during 
     March 24-26 , 2023.    
     The Conference aims to offer a platform for the researchers, academics , individuals working in the industry and startups to showcase their research innovations, knowledge and vision.
     MAC2023 will include focused track on Young Professionals , Women in Engineering and SIGHT along with technical sessions on recent developments.
