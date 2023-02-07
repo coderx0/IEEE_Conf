@@ -21,13 +21,13 @@ const HomeMain = () => {
     router.push(dest);
   };
 
-  // useEffect(()=>{
-  //   Swal.fire({
-  //     icon: 'warning',
-  //     title: 'Important Notice',
-  //     html: 'The first phase of acceptance notification has been send to those authors who have submitted their papers on or before 22 Nov, 2022. The acceptance notification for the remaining papers will be notified soon.',
-  //   })
-  // },[])
+  useEffect(()=>{
+    Swal.fire({
+      icon: 'warning',
+      title: 'Important Notice',
+      html: '(1). The conference will be in offline mode however, in certain special cases such medical emergency or any other unavoidable circumstances, author may allowed to present their presentation in ONLINE Mode also.<br/> (2). Camera ready paper submission is currently hold till 13th Feb, 2023 due to some technical issues, it will get resumed on 13th Feb 2023 and the submission deadline for Camera ready paper is extended to 20th Feb 2023.',
+    })
+  },[])
 
   return (
  <>
@@ -61,20 +61,20 @@ const HomeMain = () => {
          </div>
 
               </div>   
-            {/* <div className='w-full lg:px-32'>
+            <div className='w-full lg:px-32'>
             <button 
             onClick={()=>{
               Swal.fire({
                 icon: 'warning',
                 title: 'Important Notice',
-                html: 'The first phase of acceptance notification has been send to those authors who have submitted their papers on or before 22 Nov, 2022. The acceptance notification for the remaining papers will be notified soon.',
+                html: '(1). The conference will be in offline mode however, in certain special cases such medical emergency or any other unavoidable circumstances, author may allowed to present their presentation in ONLINE Mode also. <br/> (2). Camera ready paper submission is currently hold till 13th Feb, 2023 due to some technical issues, it will get resumed on 13th Feb 2023 and the submission deadline for Camera ready paper is extended to 20th Feb 2023.'
               })
             }}
             className='w-full px-8 mt-4 font-bold btn btn-error animate-pulse border-2 border-stone-100 flex items-center gap-3 text-xl'>
               <span className='text-3xl'><IoMdNotifications/></span>
               <span>Notice</span>
             </button>
-            </div> */}
+            </div>
           </div>
         </div>
     </div>
