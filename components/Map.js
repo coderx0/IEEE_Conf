@@ -4,7 +4,7 @@ const Map = () => {
   return (
     <>
 
-{/* <div className='mt-6 p-2'>
+<div className='mt-6 p-2'>
         <h2 className='text-center text-2xl md:text-3xl font-extrabold'>
             <span className='border-b-4 border-orange-400 pb-2 px-2 md:px-8'>
             How to Reach
@@ -47,7 +47,7 @@ Climate: (Sept) Moderately Hot. Temperature varies from 15 to 390C. Languages sp
 For more information please visit the website of Uttar Pradesh Tourism.
         </p>
     </div>
-    </div> */}
+    </div>
     <section id='venue' className="text-gray-600 body-font relative mx-6 pb-16 ">
                 <div className=" px-0 sm:px-5 py-2 mt-8 md:mx-4 lg:mx-12 ">
                 <div className='mt-8 pb-4 flex flex-col items-center justify-center'>
