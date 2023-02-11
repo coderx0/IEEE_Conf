@@ -25,7 +25,7 @@ const HomeMain = () => {
     Swal.fire({
       icon: 'warning',
       title: 'Important Notice',
-      html: '(1). The conference will be in offline mode however, in certain special cases such medical emergency or any other unavoidable circumstances, author may allowed to present their presentation in ONLINE Mode also.<br/> (2). Camera ready paper submission is currently hold till 13th Feb, 2023 due to some technical issues, it will get resumed on 13th Feb 2023 and the submission deadline for Camera ready paper is extended to 20th Feb 2023.',
+      html: '(1). The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also.<br/> (2). Camera ready paper submission is currently hold till 13th Feb, 2023 due to some technical issues, it will get resumed on 13th Feb 2023 and the submission deadline for Camera ready paper is extended to 20th Feb 2023.',
     })
   },[])
 
@@ -67,7 +67,7 @@ const HomeMain = () => {
               Swal.fire({
                 icon: 'warning',
                 title: 'Important Notice',
-                html: '(1). The conference will be in offline mode however, in certain special cases such medical emergency or any other unavoidable circumstances, author may allowed to present their presentation in ONLINE Mode also. <br/> (2). Camera ready paper submission is currently hold till 13th Feb, 2023 due to some technical issues, it will get resumed on 13th Feb 2023 and the submission deadline for Camera ready paper is extended to 20th Feb 2023.'
+                html: '(1). The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also. <br/> (2). Camera ready paper submission is currently hold till 13th Feb, 2023 due to some technical issues, it will get resumed on 13th Feb 2023 and the submission deadline for Camera ready paper is extended to 20th Feb 2023.'
               })
             }}
             className='w-full px-8 mt-4 font-bold btn btn-error animate-pulse border-2 border-stone-100 flex items-center gap-3 text-xl'>

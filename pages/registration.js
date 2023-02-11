@@ -190,6 +190,10 @@ const Registration = () => {
     <span className='text-right'>SBIN0002580</span>
 </div>
 <div className='w-full flex justify-between  py-2'>
+    <span>Swift Code</span>
+    <span className='text-right'>SBININBB828</span>
+</div>
+<div className='w-full flex justify-between  py-2'>
     <span>Bank</span>
     <span className='text-right'>State Bank of India</span>
 </div>
