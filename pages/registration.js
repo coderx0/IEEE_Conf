@@ -214,7 +214,7 @@ const Registration = () => {
 </div>
 
 <div className='text-center mt-12 '>
-    <Link href="https://forms.gle/jU2nEDYMEwan7JKy5" ><span className=' rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success'>Registration Form</span></Link>
+    <Link href="https://forms.gle/rWhJvrRw3A7HSaju6" ><span className=' rounded-xl cursor-pointer font-semibold text-lg border-2 px-8 border-stone-100 btn btn-success'>Registration Form</span></Link>
 </div>
 
 <div className='h-12 w-full'>
