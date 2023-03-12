@@ -38,11 +38,11 @@ export default function Sponsors() {
             <img src="/ieeeUP.jpg" className={`${styles.responsive}`}/>
           </div>
         </SwiperSlide>
-         <SwiperSlide className="text-center text-xl flex justify-center items-center">
+         {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div className="w-48 h-[200px] flex justify-center items-center">
             <img src="/aps.webp" className={`${styles.responsive}`}/>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         {/*<SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div className="w-32 h-32 flex justify-center items-center p-4">
@@ -95,11 +95,11 @@ export default function Sponsors() {
             <img src="/ieeeUP.jpg" className={`${styles.responsive}`}/>
           </div>
         </SwiperSlide>
-         <SwiperSlide className="text-center text-xl flex justify-center items-center">
+         {/* <SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
             <img src="/aps.webp" className={`${styles.responsive}`}/>
           </div>
-        </SwiperSlide>
+        </SwiperSlide> */}
 
         {/*<SwiperSlide className="text-center text-xl flex justify-center items-center">
         <div>
