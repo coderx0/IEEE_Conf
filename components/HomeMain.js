@@ -21,13 +21,13 @@ const HomeMain = () => {
     router.push(dest);
   };
 
-  useEffect(()=>{
-    Swal.fire({
-      icon: 'warning',
-      title: 'Important Notice',
-      html: '(1). The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also.<br/> (2). The camera ready paper submission will start on 27th February, 2023 and the submission deadline is 10th March, 2023.',
-    })
-  },[])
+  // useEffect(()=>{
+  //   Swal.fire({
+  //     icon: 'warning',
+  //     title: 'Important Notice',
+  //     html: '(1). The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also.<br/> (2). The camera ready paper submission will start on 27th February, 2023 and the submission deadline is 10th March, 2023.',
+  //   })
+  // },[])
 
   return (
  <>
@@ -67,7 +67,7 @@ const HomeMain = () => {
               Swal.fire({
                 icon: 'warning',
                 title: 'Important Notice',
-                html: '(1). The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also. <br/> (2). The camera ready paper submission will start on 27th February, 2023 and the submission deadline is 10th March, 2023.'
+                html: 'The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also.'
               })
             }}
             className='w-full px-8 mt-4 font-bold btn btn-error animate-pulse border-2 border-stone-100 flex items-center gap-3 text-xl'>
