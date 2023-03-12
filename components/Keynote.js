@@ -14,7 +14,7 @@ const Keynote = (props) => {
       {/* mb-2 karni hai */}
       <p className="leading-relaxed text-lg font-semibold ">{props.organisation}</p>
       <p className="leading-relaxed text-lg font-bold ">Talk : <span className='text-base font-medium leading-relaxed'>{props.title}</span></p>
-      <p className="leading-relaxed text-lg font-bold ">Date/Time : <span className='text-base font-medium leading-relaxed'>09:00 AM - 06:00 PM (IST), March 24 - 26, 2023</span></p>
+      <p className="leading-relaxed text-lg font-bold ">Date : <span className='text-base font-medium leading-relaxed'>March 24 - 26, 2023</span></p>
       <Link href={props.url} >
       <a className="text-orange-600 inline-flex items-center md:mb-2 lg:mb-0 mt-2">View Profile
       <BsLinkedin className='ml-3 text-2xl'/>
