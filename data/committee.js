@@ -690,6 +690,7 @@ export const committeeMembers = [
                 fullName:'Mr. Ankit Kumar',
                 organisation:'MNNIT Allahabad, India'
             },
+            
         ]
         
     },

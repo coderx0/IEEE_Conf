@@ -57,6 +57,10 @@ const Sidebar = ({setIsOpenSidebar}) => {
         className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         About</motion.div>
         <motion.div variants={item}
+        onClick={()=>navigate('/speakers')} 
+        className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
+        Keynote</motion.div>
+        <motion.div variants={item}
         onClick={()=>navigate('/Committee')} 
         className={` text-stone-300 hover:text-white cursor-pointer p-2 my-2 rounded-xl ${classes.sidebar}`}>
         Committee</motion.div>
