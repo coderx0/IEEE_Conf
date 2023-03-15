@@ -12,6 +12,7 @@ import Link from 'next/link';
 import Sponsors from "../components/Sponsors";
 import Swal from 'sweetalert2';
 import {IoMdNotifications} from "react-icons/io"
+import cool from "../styles/track.module.css"
 
 const HomeMain = () => {
 
@@ -61,16 +62,16 @@ const HomeMain = () => {
          </div>
 
               </div>   
-            <div className='w-full lg:px-32'>
+            <div className=' w-full lg:px-32'>
             <button 
-            onClick={()=>{
-              Swal.fire({
-                icon: 'warning',
-                title: 'Important Notice',
-                html: 'The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also.'
-              })
-            }}
-            className='w-full px-8 mt-4 font-bold btn btn-error animate-pulse border-2 border-stone-100 flex items-center gap-3 text-xl'>
+            // onClick={()=>{
+            //   Swal.fire({
+            //     icon: 'warning',
+            //     title: 'Important Notice',
+            //     html: 'The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also.'
+            //   })
+            // }}
+            className=' w-full px-8 mt-4 font-bold btn btn-error animate-pulse border-2 border-stone-100 flex items-center gap-3 text-xl'>
               <span className='text-3xl'><IoMdNotifications/></span>
               <span>Notice</span>
             </button>
@@ -157,19 +158,79 @@ const HomeMain = () => {
 
 <section className="p-6">
   <div className=" container mx-auto flex md:px-5 py-2 flex-col">
-     <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Organising Partners
-      </h1>
+     {/* <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Organising Partners
+      </h1> */}
+      <h1 className='font-extrabold text-2xl md:text-3xl text-center mb-8'>
+                <span className=' border-b-4 border-orange-500 px-0 md:px-8 pb-2'>
+                Organising <span className='text-cyan-600'>Partners</span>
+                </span>
+            </h1>
     <TechCollabGallery/>
   </div>
 </section>
 
-<section className="p-6">
+{/* <section className="p-6">
   <div className=" container mx-auto flex md:px-5 py-2 flex-col">
      <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Co Sponsors
       </h1>
-    <Sponsors/>
+      
   </div>
-</section>
+</section> */}
+<div className='mt-8 p-2 mx-2 md:mx-8'>
+            <h1 className='font-extrabold text-2xl md:text-3xl text-center'>
+                <span className=' border-b-4 border-orange-500 px-0 md:px-8 pb-2'>
+                Our <span className='text-cyan-600'>Sponsors</span>
+                </span>
+            </h1>
+            {/* <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Co Sponsors
+      </h1> */}
+            {/* <div className={`mt-10 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}>
+                <h1 className='text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600'>Diamond</h1>
+                <img src="/numeregion.webp" alt="logo" className='w-96 text-center px-4 pb-8 md:pb-12 pt-2 mt-4 md:pt-6 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+                <p className='px-2 text-center text-xl md:text-2xl font-semibold pb-6'>NUMEREGION's TaraNG</p>
+
+            </div> */}
+            <div className={`mt-8 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}>
+                <h1 className='text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600'>Platinum</h1>
+                <img src="/serb.webp" alt="logo" className='text-center px-4 pb-8 md:pb-12 pt-2 md:pt-6 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+                <p className='px-2 text-center text-xl md:text-2xl font-semibold pb-4'>Science and Engineering Research Board, DST, GOI</p>
+
+            </div>
+            
+            
+            <div className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}` }>
+            
+            <div className='inline-flex '><h1 className=' text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600'>Gold </h1></div>
+            <div className=' flex flex-col md:flex-row justify-around items-center '>
+            <div >
+            <img src="/JV-Micronics.webp" alt="logo" className='w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <p className='text-xl md:text-2xl font-semibold mb-12 md:-mb-10'>JV Micronics</p>
+            </div>
+            <div >
+            <img src="/CSIR.webp" alt="logo" className='-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <p className='text-xl md:text-2xl font-semibold -mt-8 pb-4'>CSIR, GOI</p>
+            </div>
+            
+            </div>
+            
+            </div>
+            <div className={`text-center mt-8 bg-stone-100 shadow-inner rounded-lg ${cool.coolHover}` }>
+            
+            <div className='inline-flex '><h1 className=' text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600'>Silver </h1></div>
+            <div className='my-8 flex flex-col md:flex-row justify-around items-center '>
+            <div >
+            <img src="/saraca.webp" alt="logo" className='w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <p className='text-xl md:text-2xl font-semibold mb-12 md:mb-0'>Saraca Solutions</p>
+            </div>
+            <div >
+            <img src="/agmatel.webp" alt="logo" className='w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <p className='text-xl md:text-2xl font-semibold '>Agmatel </p>
+            </div>
+            
+            </div>
+            
+            </div>
+        </div>
 
     </div>
  </>
