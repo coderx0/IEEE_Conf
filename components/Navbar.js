@@ -61,8 +61,8 @@ const Navbar = () => {
     <Link href='/#callforpaper' scroll={false}>
     <li className={`${router.pathname == "/" ? " hover:border-orange-400 text-orange-400" : ""} hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2`}>Call For Papers</li>
     </Link>
-    <a href='/MAC2023.pdf' download={true}>
-    <li className='hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2'>Download Flyer</li>
+    <a href='/MAC_2023_SCHEDULE.pdf' download={true}>
+    <li className='hover:bg-orange-300  hover:text-black rounded-lg w-full text-left p-2'>Download Schedule</li>
     </a>
     
   </ul>
