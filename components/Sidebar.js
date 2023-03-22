@@ -88,9 +88,9 @@ const Sidebar = ({setIsOpenSidebar}) => {
     className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
       Call For Papers
     </li>
-    <a download={true} href='/MAC2023.pdf'>
+    <a download={true} href='/MAC_2023_SCHEDULE.pdf'>
     <li className='py-2 px-4 hover:bg-white hover:text-black rounded-lg'>
-      Download Flyer
+      Download Schedule
     </li>
     </a>
   </ul>

@@ -11,7 +11,7 @@ import TechCollabGallery from './TechCollabGallery';
 import Link from 'next/link';
 import Sponsors from "../components/Sponsors";
 import Swal from 'sweetalert2';
-import {IoMdNotifications} from "react-icons/io"
+import {AiFillSchedule} from "react-icons/ai"
 import cool from "../styles/track.module.css"
 
 const HomeMain = () => {
@@ -63,18 +63,13 @@ const HomeMain = () => {
 
               </div>   
             <div className=' w-full lg:px-32'>
-            <button 
-            // onClick={()=>{
-            //   Swal.fire({
-            //     icon: 'warning',
-            //     title: 'Important Notice',
-            //     html: 'The conference will be in offline mode however, in certain rare cases such as medical emergency or any other unavoidable circumstances, authors may allowed to present their presentation in ONLINE Mode also.'
-            //   })
-            // }}
-            className=' w-full px-8 mt-4 font-bold btn btn-error animate-pulse border-2 border-stone-100 flex items-center gap-3 text-xl'>
-              <span className='text-3xl'><IoMdNotifications/></span>
-              <span>Notice</span>
+            <a href='/MAC_2023_SCHEDULE.pdf' download={true}>
+            <button
+            className=' w-full px-8 mt-4 font-bold btn btn-accent border-2 border-stone-100 flex items-center gap-3 text-xl'>
+              <span className='text-3xl'><AiFillSchedule/></span>
+              <span>Schedule</span>
             </button>
+            </a>
             </div>
           </div>
         </div>
