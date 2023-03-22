@@ -8,7 +8,7 @@ export const patrons =[
     },
     {
         title:'Coming Soon...',
-        fullName:'Dr. Naser Ojaraoudi Parchin',
+        fullName:'Dr. Naser Ojaroudi Parchin',
         organisation:'Edinburgh Napier University, UK',
         profileImage:'/parchin.webp',
         url:"https://www.linkedin.com/in/naser-ojaroudi-parchin-838a7b57/"
