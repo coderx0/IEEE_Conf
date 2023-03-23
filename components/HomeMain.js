@@ -179,13 +179,13 @@ const HomeMain = () => {
             </h1>
             {/* <h1 className="relative title-font mb-4 font-bold border-b-4 pb-4 text-2xl md:text-4xl lg:pr-24 border-cyan-600 w-full md:w-[60%]">Technical Co Sponsors
       </h1> */}
-            <div className={`mt-10 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}>
+            <div className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}>
                 <h1 className='text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600'>Diamond</h1>
                 <img src="/numeregion.webp" alt="logo" className='w-96 text-center px-4 pb-8 md:pb-12 pt-2 mt-4 md:pt-6 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
-                <p className='px-2 text-center text-xl md:text-2xl font-semibold pb-6'>NUMEREGION &apos; TaraNG</p>
+                <p className='px-2 text-center text-xl md:text-2xl font-semibold pb-6'>NUMEREGION&apos;s TaraNG</p>
 
             </div>
-            <div className={`mt-8 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}>
+            <div className={`mt-16 bg-stone-100 shadow-inner rounded-lg flex flex-col justify-center items-center ${cool.coolHover}`}>
                 <h1 className='text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600'>Platinum</h1>
                 <img src="/serb.webp" alt="logo" className='text-center px-4 pb-8 md:pb-12 pt-2 md:pt-6 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
                 <p className='px-2 text-center text-xl md:text-2xl font-semibold pb-4'>Science and Engineering Research Board, DST, GOI</p>
@@ -202,7 +202,7 @@ const HomeMain = () => {
             <p className='text-xl md:text-2xl font-semibold mb-12 md:-mb-10'>JV Micronics</p>
             </div>
             <div >
-            <img src="/CSIR.webp" alt="logo" className='-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <img src="/CSIR.webp" alt="logo" className='md:-mt-8 w-64 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
             <p className='text-xl md:text-2xl font-semibold -mt-8 pb-4'>CSIR, GOI</p>
             </div>
             
@@ -213,13 +213,20 @@ const HomeMain = () => {
             
             <div className='inline-flex '><h1 className=' text-center font-extrabold text-2xl tracking-wide leading-relaxed md:text-3xl pt-2 text-cyan-600'>Silver </h1></div>
             <div className='my-8 flex flex-col md:flex-row justify-around items-center '>
-            <div >
-            <img src="/saraca.webp" alt="logo" className='w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <div className='md:w-1/2 justify-center' >
+            <img src="/saraca.webp" alt="logo" className='w-80 mx-auto text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
             <p className='text-xl md:text-2xl font-semibold mb-12 md:mb-0'>Saraca Solutions</p>
             </div>
+            <div className='flex flex-col md:flex-row justify-around items-center'>
             <div >
-            <img src="/agmatel.webp" alt="logo" className='w-80 text-center px-4 pb-8 md:pb-12 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
-            <p className='text-xl md:text-2xl font-semibold '>Agmatel </p>
+            <img src="/agmatel.webp" alt="logo" className='w-72 text-center px-4 pb-2 md:pb-6 pt-2 md:pt-8 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <p className='text-xl md:text-2xl font-semibold pb-8 md:pb-0'>Agmatel </p>
+            </div>
+            <div >
+            <img src="/keysight.webp" alt="logo" className='w-80 text-center px-4  md:pb-4 pt-2 md:pt-2 ease-in-out transition transform over:-translate-y-1 hover:scale-110 md:hover:scale-125 duration-700 delay-75' />
+            <p className='text-xl md:text-2xl -mt-4 md:mt-0 font-semibold'>Keysight </p>
+            </div>
+            
             </div>
             
             </div>
