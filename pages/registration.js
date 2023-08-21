@@ -20,7 +20,8 @@ const Registration = () => {
     <span className='text-red-500 font-bold right'>January 15, 2023</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
-    <span>Acceptance Notification</span>
+    <span>Acceptance 
+    Notification</span>
     <span className='text-right'>January 23, 2023</span>
 </div>
 <div className='w-full flex justify-between border-b-2 border-gray-400 py-2'>
